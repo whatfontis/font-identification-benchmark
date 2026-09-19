@@ -1,0 +1,8 @@
+<?php
+// Copy to scripts/llm_keys.php (gitignored) and fill in. Environment variables
+// OPENAI_API_KEY / ANTHROPIC_API_KEY / GEMINI_API_KEY take precedence.
+return [
+    'openai'    => '',
+    'anthropic' => '',
+    'google'    => '',
+];

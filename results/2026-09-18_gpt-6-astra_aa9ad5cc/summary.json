@@ -1,0 +1,37 @@
+{
+    "run_id": "aa9ad5cc",
+    "provider": "openai",
+    "model": "gpt-6-astra",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 452,
+    "unparsed": 0,
+    "refusals": 0,
+    "stop_reasons": {
+        "completed": 624
+    },
+    "avg_ms": 26414,
+    "top": {
+        "top1": {
+            "hits": 90,
+            "of": 624,
+            "pct": 14.42
+        },
+        "top5": {
+            "hits": 148,
+            "of": 624,
+            "pct": 23.72
+        },
+        "top10": {
+            "hits": 172,
+            "of": 624,
+            "pct": 27.56
+        },
+        "top20": {
+            "hits": 172,
+            "of": 624,
+            "pct": 27.56
+        }
+    }
+}

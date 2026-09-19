@@ -1,0 +1,2 @@
+test-images/anospace.zip     filter=lfs diff=lfs merge=lfs -text
+test-images/awithspace.zip   filter=lfs diff=lfs merge=lfs -text

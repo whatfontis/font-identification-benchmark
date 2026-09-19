@@ -1,0 +1,511 @@
+# Images where the expected font was not in the model's list (gemini-3.8-flash, run c3c0a5e4)
+# file|expected|what the model answered first
+img_002.jpg|ABeeZee|Helvetica Neue
+img_003.jpg|Abel|Roboto Condensed
+img_004.jpg|Abramo|Northwell
+img_006.jpg|Acme|Abrupt
+img_008.jpg|Adelia|Chewy
+img_009.jpg|Advent|FF Dax
+img_010.jpg|Agatho|Century Schoolbook
+img_011.jpg|Agora|Clarendon
+img_013.jpg|Akzidenz-Grotesk|Arial
+img_014.jpg|Albertus Nova|Times New Roman
+img_015.jpg|Albra|ITC Galliard
+img_016.jpg|Alegreya|Computer Modern
+img_017.jpg|Alegreya Sans|Arial
+img_018.jpg|Alfa Slab|Aachen
+img_019.jpg|Alice|ITC Galliard
+img_020.jpg|Almarai|Arial
+img_022.jpg|Amasis|Times New Roman
+img_024.jpg|American Captain|Abrupt
+img_025.jpg|Amiri|Perpetua
+img_027.jpg|Ananda|Kuenstler Script
+img_028.jpg|Ancient|Cloister Black
+img_029.jpg|Ano|Abrupt
+img_032.jpg|Archer|ChunkFive
+img_033.jpg|Architects Daughter|Balsamiq Sans
+img_034.jpg|Archivo|Arial
+img_035.jpg|Archivo Black|Arial Black
+img_036.jpg|Archivo Narrow|Arial Narrow
+img_038.jpg|Arsenal|Avenir
+img_039.jpg|Arvo|Bitstream Charter
+img_040.jpg|Asap|Abrupt
+img_041.jpg|Asap Condensed|FF DIN Round
+img_042.jpg|Assistant|Roboto
+img_043.jpg|Astralaga|Computer Modern
+img_044.jpg|Atomic Marker|Road Rage
+img_045.jpg|Aurora|PicNic
+img_046.jpg|Austral Slab|Clarendon
+img_047.jpg|Authenia|Avallon
+img_052.jpg|Baby Doll|Finger Paint
+img_054.jpg|Bailenson|Palace Script MT
+img_055.jpg|Balerga|Lust
+img_056.jpg|Bandito Script|Krinkes
+img_057.jpg|Barlington|Wisdom Script
+img_058.jpg|Barlow|Arial
+img_059.jpg|Barlow Condensed|DIN 1451 Engschrift
+img_061.jpg|Batman Forever|Abrupt
+img_062.jpg|Beautiful Barbies|Amarillo
+img_063.jpg|Beautiful Christmas|Great Vibes
+img_066.jpg|Bembo MT|Computer Modern
+img_067.jpg|Berthold Corporate E|Stymie
+img_070.jpg|Be Vietnam|Arial
+img_071.jpg|Beyonders|Azonix
+img_072.jpg|Biennale|Avenir Next
+img_074.jpg|Billion Dreams|Kaushan Script
+img_075.jpg|Billy Ohio|Wild Youth
+img_076.jpg|Biospace|Abrupt
+img_077.jpg|Birds of Paradise|Kunstler Script
+img_078.jpg|Biro Script Plus|Abrupt
+img_079.jpg|Bisney|Madina Script
+img_080.jpg|Bitter|Times New Roman
+img_081.jpg|Blacker|Portrait
+img_082.jpg|Black Hulk|Abrupt
+img_084.jpg|Blackout Sunrise|Compacta
+img_085.jpg|Blacksword|Abrupt
+img_086.jpg|Blastimo Sans|Arial
+img_087.jpg|BlincType Letterpress Fontpak|Clarendon Bold Condensed
+img_088.jpg|Blosta|Burgues Script
+img_089.jpg|Bluesky|Gochi Hand
+img_091.jpg|Bodoni Egyptian|Prestige Elite
+img_093.jpg|Bogart|Rockwell
+img_094.jpg|Bon Vivant Family|Ogg
+img_095.jpg|Bookman Old Style|Century Schoolbook
+img_096.jpg|Boton|Stymie
+img_097.jpg|Brandon Grotesque|Helvetica Neue
+img_098.jpg|Break|Futura
+img_099.jpg|Breathing|Northwell
+img_100.jpg|Bree Serif|Swift
+img_102.jpg|Bronzion Deco|Cloister Black
+img_105.jpg|Built Titling|Haettenschweiler
+img_106.jpg|Bungee|Helvetica Rounded
+img_107.jpg|Butterscotch|Amsterdam
+img_108.jpg|Cabin|Arial
+img_109.jpg|Cairo|FF DIN
+img_110.jpg|Cakeroll|Stay Puft
+img_111.jpg|Calligraphy|English 157
+img_112.jpg|Campione Neue|Octin College
+img_114.jpg|Candy|Brittany Signature
+img_116.jpg|Cantarell|Arial
+img_117.jpg|Cardo|Times New Roman
+img_118.jpg|Carter|Abrupt
+img_119.jpg|Catamaran|Arial
+img_120.jpg|Caveat|Ink Free
+img_124.jpg|Chaloops|Covered by Your Grace
+img_125.jpg|Changa|Ubuntu
+img_126.jpg|Chaparral|Computer Modern
+img_127.jpg|Chatime|Playfair Display
+img_128.jpg|Cheri|Chewy
+img_129.jpg|Cherolina|Brittany Signature
+img_130.jpg|Chicken Pie|Balsamiq Sans
+img_131.jpg|Chiffon|Cormorant Garamond
+img_132.jpg|Chivo|Helvetica
+img_133.jpg|Chomixi|Abrupt
+img_134.jpg|Christmas|October Twilight
+img_135.jpg|Christmas and Santona|Carolyna Pro
+img_137.jpg|Christmas Bell|Glossy Script
+img_138.jpg|Christmas Carol|Bickham Script Pro
+img_139.jpg|Christmas Sparkle|Angilla Tattoo
+img_140.jpg|Christmas Squad|Glossy Balloon
+img_142.jpg|Christmas Wish Calligraphy|ITC Edwardian Script
+img_143.jpg|Christmas Wish Monoline|Ruthie
+img_144.jpg|Chronicle Display|Onyx
+img_145.jpg|Chronicle Text|Times New Roman
+img_146.jpg|Cinzel|Adobe Garamond Pro
+img_147.jpg|Clarendon|Times New Roman
+img_148.jpg|Classy Vogue|Didot
+img_149.jpg|Cloister Black|Fette Fraktur
+img_150.jpg|Cocogoose|Arial
+img_152.jpg|Commissioner|Arial
+img_153.jpg|Concert|Dosis
+img_154.jpg|Conte Script Plus|Abrupt
+img_156.jpg|Coolvetica|Abrupt
+img_157.jpg|Cooper BT|Marat
+img_158.jpg|Cormorant|Times New Roman
+img_159.jpg|Cormorant Garamond|Computer Modern
+img_160.jpg|Courgette|Monotype Corsiva
+img_161.jpg|Couture|Arial
+img_162.jpg|Cream Cake|Norican
+img_163.jpg|Crete Round|Century Schoolbook
+img_164.jpg|Crima|Bely Display
+img_165.jpg|Crimson|Adobe Garamond
+img_167.jpg|Cuprum|Arial Narrow
+img_168.jpg|Daily Note|Abrupt
+img_169.jpg|Dancing Script|Commercial Script
+img_170.jpg|Danger Agenda|Abrupt
+img_171.jpg|Darwin Smith|Playlist
+img_172.jpg|Daykids|Gochi Hand
+img_173.jpg|Debora Celina Script|Abrupt
+img_174.jpg|Designer|Geogrotesque Rounded
+img_175.jpg|Desirable Calligraphy|Abrupt
+img_176.jpg|Des Montilles|Northwell
+img_177.jpg|Didact Gothic|Myriad Pro
+img_178.jpg|DIN Next|Helvetica
+img_179.jpg|DIN Next Slab|Stymie
+img_180.jpg|DM Sans|Arial
+img_181.jpg|DM Serif Display|ITC Fenice
+img_184.jpg|Domine|Palatino
+img_185.jpg|Dosis|SF Pro Rounded
+img_186.jpg|Dream Girl|Silver South Script
+img_187.jpg|Dreaming Outloud|Learning Curve
+img_188.jpg|DT Augustina Slab|Computer Modern Roman
+img_189.jpg|EB Garamond|Times New Roman
+img_190.jpg|Editors Note|Linotype Didot
+img_191.jpg|Egyptienne|Eden
+img_192.jpg|El Messiri|Canela
+img_193.jpg|Emperatriz|Courier New
+img_194.jpg|Emy Slab|Stymie
+img_195.jpg|Encode Sans|Arial
+img_196.jpg|Eurostile|Product Sans
+img_197.jpg|Exo|Roboto
+img_198.jpg|Eyesome|Amsterdam
+img_199.jpg|Fanlste|SangBleu Empire
+img_200.jpg|Feeling Passionate|Another Danger
+img_201.jpg|FF DIN|Futura Extra Condensed
+img_202.jpg|FF Elementa|Courier
+img_203.jpg|FF Ernestine|Times New Roman
+img_204.jpg|FF Eureka|ITC Galliard
+img_205.jpg|FF Fago|DIN Condensed
+img_206.jpg|FF Franziska|Courier New
+img_207.jpg|FF Hertz|Computer Modern
+img_208.jpg|f Finish|Tungsten
+img_209.jpg|FF Kievit|DIN 1451
+img_210.jpg|FF Market|Abrupt
+img_211.jpg|FF Meta|Myriad Pro
+img_212.jpg|FF Meta Serif|Arnhem
+img_213.jpg|FF Providence Sans|Finger Paint
+img_214.jpg|FF Tisa|Times New Roman
+img_215.jpg|Figtree|Helvetica
+img_216.jpg|Fineday|Coronet Bold
+img_217.jpg|Fiolex Girls|Bodoni Classic
+img_218.jpg|Fira Sans|Arial
+img_219.jpg|Fjalla|Compacta
+img_220.jpg|Food Truck|Gochi Hand
+img_221.jpg|Foundry Form Serif|Computer Modern
+img_222.jpg|Francois|Abrupt
+img_223.jpg|Franklin Gothic|Segoe UI
+img_224.jpg|Frank Ruhl Libre|Computer Modern
+img_225.jpg|Freeland|Black Diamond
+img_228.jpg|Friz Quadrata|Times New Roman
+img_229.jpg|Frutiger|Helvetica
+img_230.jpg|FS Kim|Dante
+img_231.jpg|FS Me|Arial
+img_232.jpg|FS Ostro|Computer Modern
+img_233.jpg|FS Rufus|Computer Modern
+img_236.jpg|Futura PT|DIN 1451 Mittelschrift
+img_237.jpg|Gagisra Rigade|Linotype Didot
+img_238.jpg|Galano Grotesque|Cera Pro
+img_240.jpg|Garnet|Brittany Signature
+img_241.jpg|Gazpacho|Computer Modern
+img_242.jpg|Gelica|Goudy Heavyface
+img_243.jpg|Genty|Candice
+img_244.jpg|Geometric Slabserif 703|ITC Cheltenham
+img_245.jpg|Ghastly Panic|XXII Ultimate-Black-Metal
+img_246.jpg|Ghibo Talk|Abrupt
+img_249.jpg|Gloria Hallelujah|Abrupt
+img_250.jpg|Glypha|DejaVu Serif
+img_251.jpg|Gobold|Alternate Gothic No. 1
+img_252.jpg|Golden|Hello Honey
+img_253.jpg|Golden Hopes|Brittany Signature
+img_254.jpg|Goldplay|Nunito
+img_255.jpg|Gotham|Impact
+img_256.jpg|Gothic A1|Arial
+img_258.jpg|Granesta|Abrupt
+img_259.jpg|Great Vibes|Kuenstler Script
+img_260.jpg|Greycliff CF|Helvetica
+img_261.jpg|Grinched|Abrupt
+img_262.jpg|Gruppo|Gilroy
+img_263.jpg|Guthen Bloots|Marker Felt
+img_264.jpg|Handelson|Honey Script
+img_265.jpg|Handwind|Amsterdam
+img_266.jpg|Hanley|ABC Abrupt
+img_267.jpg|Harman|Commercial Script
+img_270.jpg|Heading Now|DIN 1451 Engschrift
+img_271.jpg|Heartless|XXII Ultimate-Black-Metal
+img_272.jpg|Heavenly Christmas|Abrupt
+img_273.jpg|Heavitas|Rubik
+img_274.jpg|Heebo|DIN 1451 Mittelschrift
+img_276.jpg|Hello Honey|Amarillo
+img_277.jpg|Hello Paris|Kristi
+img_283.jpg|Hind|Helvetica
+img_284.jpg|Hind Madurai|Arial
+img_285.jpg|Hind Siliguri|Highway Gothic
+img_286.jpg|Hisbullah|Abrupt
+img_287.jpg|Home Christmas|Voyage
+img_288.jpg|Home Kitchen|The Skinny
+img_289.jpg|Homepage|Bromello
+img_290.jpg|Honey Black|Abrupt
+img_291.jpg|Honeypirls|Times New Roman
+img_292.jpg|Hug Me Tight|Balsamiq Sans
+img_294.jpg|Inconsolata|OCR-B
+img_295.jpg|Indie Flower|Balsamiq Sans
+img_296.jpg|Indoor Design|Mister Earl
+img_299.jpg|Intrepid Spear|Heavitas
+img_300.jpg|Intro Rust|Cinzel Decorative
+img_301.jpg|Ionic No 5|Computer Modern
+img_302.jpg|Isidora|Poetica
+img_303.jpg|Italia|ITC Cheltenham
+img_304.jpg|ITC Avant Garde Gothic|Helvetica
+img_305.jpg|ITC Benguiat|Wolpe Pegasus
+img_306.jpg|ITC Berkeley Old Style|Computer Modern
+img_308.jpg|ITC Cheltenham|Computer Modern
+img_309.jpg|ITC Clearface|Times New Roman
+img_310.jpg|ITC Edwardian Script|Playfair Display
+img_311.jpg|ITC Garamond|Abril Display
+img_312.jpg|ITC Lubalin Graph|Prestige Elite
+img_313.jpg|ITC New Baskerville|Computer Modern
+img_314.jpg|ITC Officina Serif|Cambria
+img_315.jpg|ITC Serif Gothic|Corvinus
+img_316.jpg|ITC Souvenir|Times New Roman
+img_317.jpg|ITC Stone Serif|Arnhem
+img_318.jpg|JMH Typewriter|Times New Roman
+img_319.jpg|Joanna|Computer Modern
+img_320.jpg|Joanna Nova|Computer Modern
+img_321.jpg|Josefin Sans|Avenir
+img_322.jpg|Josefin Slab|Courier New
+img_323.jpg|Joseph Sophia|Amarillo
+img_324.jpg|Jost|Helvetica
+img_325.jpg|Juana|Ambroise
+img_326.jpg|Kalam|Ink Free
+img_327.jpg|Kanit|Arial
+img_328.jpg|Karla|Helvetica
+img_329.jpg|Kastella Script|Noe Display
+img_332.jpg|KG Red Hands|VAG Rounded
+img_333.jpg|Khand|DIN 1451 Engschrift
+img_334.jpg|Kids Draw|Abrupt
+img_335.jpg|Kids Zona|Better Together
+img_337.jpg|Kollera|Bodoni MT
+img_339.jpg|Kuenstler Script|ITC Edwardian Script
+img_340.jpg|La Luxes|Love
+img_341.jpg|Larken|SangBleu Kingdom
+img_342.jpg|Lato|Arial
+img_343.jpg|Lemon Milk|Futura
+img_344.jpg|Lemon Yellow Sun|Sue Ellen Francisco
+img_345.jpg|Letteria|Abrupt
+img_346.jpg|Lexend|FF DIN
+img_347.jpg|Lexend Deca|Helvetica Neue
+img_348.jpg|Libre Baskerville|Minion
+img_349.jpg|Libre Franklin|Open Sans
+img_350.jpg|Lilita|Futura
+img_351.jpg|Limited|Better Together
+img_353.jpg|Lobster|Present
+img_354.jpg|Lobster Two|Ogg
+img_355.jpg|Lora|Times New Roman
+img_356.jpg|Louis George|Helvetica Neue
+img_357.jpg|Love|Abrupt
+img_358.jpg|Lovelace|Ogg
+img_359.jpg|Lovely May|Hyperwave
+img_360.jpg|Ltt Recoleta|Abrupt
+img_362.jpg|Macklin|Stymie Hairline
+img_363.jpg|MADE Tommy|SF Pro
+img_364.jpg|Madina|ITC Edwardian Script
+img_365.jpg|Mafra|Computer Modern
+img_367.jpg|Mangrove|Abrupt
+img_368.jpg|Manrope|Arial
+img_369.jpg|Marcellus|Bodoni MT
+img_370.jpg|Marola|Univers
+img_371.jpg|Martel|Times New Roman
+img_372.jpg|Marysville|Shelley Allegro Script
+img_374.jpg|Mate|Adobe Garamond
+img_375.jpg|Mate SC|Perpetua
+img_376.jpg|Mathovia Script|Commercial Script
+img_377.jpg|Maven|Avenir
+img_378.jpg|Memphis|Bitstream Charter
+img_379.jpg|Mercury Text|Alegreya
+img_380.jpg|Merriweather|Times New Roman
+img_381.jpg|Merriweather Sans|Arial
+img_383.jpg|Michelle|Kudryashev Headline
+img_384.jpg|Mikaway|Computer Modern
+img_385.jpg|Milk Mango|Porky's
+img_386.jpg|Miller Text|Bodoni MT
+img_387.jpg|Miraculous Christmas|Streetwear
+img_388.jpg|Mirador|Didot
+img_389.jpg|M Ling Wai F HK|Waiting for the Sunrise
+img_390.jpg|M Ling Wai TC|Noteworthy
+img_391.jpg|Modernline|Amsterdam
+img_392.jpg|Modern Love|Debby
+img_393.jpg|Moline Quotes Sans|Abrupt
+img_394.jpg|Monotype Lydian|Brioso Pro
+img_395.jpg|Monroe|Bitter
+img_396.jpg|Mont|Gill Sans
+img_397.jpg|Montserrat|Helvetica Neue
+img_399.jpg|Moon Time|Abrupt
+img_400.jpg|Mosenta Script|Ariston
+img_401.jpg|Motley Forces|Chewy
+img_402.jpg|Mr Dodo|FF Providence
+img_403.jpg|Mrs Eaves|SangBleu Empire
+img_404.jpg|MSung HK|Harriet Display
+img_405.jpg|Mukta|Arial
+img_406.jpg|Multiple|Courier New
+img_407.jpg|Mundo Serif|Computer Modern
+img_408.jpg|Museo Slab|Minion Pro
+img_409.jpg|Muthiara|Bromello
+img_410.jpg|Nanum Gothic|Helvetica
+img_411.jpg|Nanum Myeongjo|ITC Galliard
+img_412.jpg|National Forest|Caveat Brush
+img_416.jpg|Neue Haas Unica|Roboto
+img_419.jpg|Neuton|Minion Pro
+img_421.jpg|New Romantics|Times New Roman
+img_422.jpg|Nexa|Arial
+img_423.jpg|Nexa Rust|Commercial Script
+img_424.jpg|Nexa Slab|Century Schoolbook
+img_426.jpg|Nimrod|Times New Roman
+img_428.jpg|Noticia Text|Adobe Garamond
+img_429.jpg|Noto Sans|Arial
+img_430.jpg|Noto Serif|Computer Modern
+img_432.jpg|Nunito Sans|Arial
+img_433.jpg|Old London|Old English Text MT
+img_434.jpg|Old Standard TT|Walbaum
+img_435.jpg|Oleo Script|ITC Galliard
+img_436.jpg|Open Sans|Helvetica Neue
+img_437.jpg|Operetta|Computer Modern
+img_440.jpg|Outfit|Century Gothic
+img_441.jpg|Overpass|PT Sans
+img_442.jpg|Overthink|Bromello
+img_443.jpg|Oxygen|Open Sans
+img_444.jpg|P22 Mackinac|Iowan Old Style
+img_445.jpg|Pacifico|Honey Script
+img_447.jpg|Panic|Blackmailer
+img_448.jpg|Passion|Compacta
+img_449.jpg|Pathway Gothic|Steelfish
+img_450.jpg|Patron|Roboto
+img_451.jpg|Patua|ABC Abrupt
+img_452.jpg|Paytone|Abrupt
+img_454.jpg|Petrona|Times New Roman
+img_455.jpg|PF DIN Text|Roboto
+img_456.jpg|Philosopher|Playfair Display
+img_459.jpg|Plantin|Computer Modern
+img_460.jpg|Play|Helvetica
+img_461.jpg|Playfair Display|Modern No. 20
+img_462.jpg|Plus Jakarta Sans|Abrupt
+img_463.jpg|PMN Caecilia|Computer Modern Slanted
+img_464.jpg|Poppins|Helvetica
+img_465.jpg|Porky|VAG Rounded
+img_466.jpg|Prata|Didot
+img_467.jpg|Present|Bromello
+img_470.jpg|Productive Day|Love Ya Like A Sister
+img_471.jpg|Prompt|Helvetica Neue
+img_473.jpg|PT Sans|Arial
+img_474.jpg|PT Serif|Times New Roman
+img_476.jpg|Qakergu|Lust
+img_477.jpg|Quadon|Bitstream Charter
+img_478.jpg|Quarto|Bodoni MT
+img_479.jpg|Quattrocento|Computer Modern
+img_480.jpg|Quattrocento Sans|Open Sans
+img_481.jpg|Questrial|Century Gothic
+img_482.jpg|Quickpen|Brittany Signature
+img_483.jpg|Quicksand|Cera Pro
+img_484.jpg|Rajdhani|FF DIN
+img_485.jpg|Raleway|Helvetica Neue
+img_486.jpg|Rameau|Computer Modern
+img_487.jpg|Readex|Helvetica
+img_488.jpg|Recoleta|Computer Modern
+img_489.jpg|Red Burger|Abrupt
+img_490.jpg|Red Hat Display|Helvetica Neue
+img_491.jpg|Relington|Linotype Didot
+img_492.jpg|Requiem|Computer Modern Roman
+img_493.jpg|Rethinker|Amsterdam
+img_500.jpg|Roboto Mono|Arial
+img_501.jpg|Roboto Serif|Times New Roman
+img_502.jpg|Roboto Slab|Bitstream Charter
+img_503.jpg|Rockline|Signerica
+img_504.jpg|Rockwell|Cambria
+img_505.jpg|Rokkitt|Clarendon
+img_506.jpg|Rolate|Playfair Display
+img_507.jpg|Rosela|Computer Modern
+img_508.jpg|Rotis Sans Serif|DIN Condensed
+img_509.jpg|Rowdies|Abrupt
+img_510.jpg|Roxborough CF|Boogy Brut
+img_511.jpg|Rubik|Arial
+img_512.jpg|Rumble Brave Vintage Fonts|Bauer Bodoni
+img_513.jpg|Russo|Arial
+img_514.jpg|Rustic Market|Southampton
+img_515.jpg|Sabina|Northwell
+img_517.jpg|Saira|Roboto
+img_518.jpg|Saira Condensed|Helvetica Condensed
+img_519.jpg|Salma|Modernline
+img_520.jpg|Sanchez Niu|Computer Modern Typewriter
+img_521.jpg|Sarabun|Arial
+img_523.jpg|Sawarabi Gothic|Arial
+img_524.jpg|Sawarabi Mincho|Bodoni MT
+img_525.jpg|Scala|Modern No. 20
+img_526.jpg|Sentinel|Computer Modern
+img_527.jpg|Serifa|Clarendon
+img_529.jpg|Signatra|SignPainter
+img_530.jpg|Signatrue|Abrupt
+img_531.jpg|Signika|Calibri
+img_532.jpg|Signika Negative|Calibri
+img_533.jpg|Silent Handwritting|Covered By Your Grace
+img_534.jpg|Silk Serif|Abrupt
+img_535.jpg|Simon Lovely|Gaegu
+img_536.jpg|Slabo|Times New Roman
+img_538.jpg|Sofia|Helvetica Neue
+img_539.jpg|Soho|TheMix
+img_540.jpg|Sora|Century Gothic
+img_541.jpg|Source Code|Bahnschrift
+img_543.jpg|Space Mono|DIN 1451 Mittelschrift
+img_544.jpg|Spectral|Minion Pro
+img_545.jpg|Spritz And Delicious|LHF Stanford
+img_547.jpg|Starborn|Chewy
+img_548.jpg|Star Jedi|Helvetica Black
+img_549.jpg|Stigfier|Modern No. 20
+img_550.jpg|Stolen Times|Alex Brush
+img_551.jpg|Stormlight|Abrupt
+img_552.jpg|Stretch|Helvetica
+img_553.jpg|Study Alone|Abrupt
+img_554.jpg|Sunday Best|KG Opposites Attract
+img_555.jpg|Super Funnel|West Bubble
+img_556.jpg|Super Mario 256|Abrupt
+img_557.jpg|Suti|House Casual
+img_559.jpg|Taberna|Learning Curve
+img_560.jpg|Tajawal|Fira Sans
+img_561.jpg|Taken by Vultures|Abrupt
+img_562.jpg|Tazugane Gothic|Arial
+img_563.jpg|Technotyp|Memphis
+img_564.jpg|Teko|League Gothic
+img_565.jpg|The Augusta|Candice
+img_566.jpg|The Beach|Abrupt
+img_567.jpg|The Bold Font|Proxima Nova
+img_570.jpg|The Seasons|SangBleu Kingdom
+img_571.jpg|TheSerif|Garamond Premier Pro Condensed
+img_574.jpg|Times New Roman|Adobe Garamond Pro
+img_575.jpg|Tinos|Times New Roman
+img_576.jpg|Titillium Web|Helvetica
+img_577.jpg|Tonight Friend|Chewy
+img_578.jpg|Trade Gothic|Helvetica
+img_579.jpg|Trade Gothic Next|Helvetica Neue
+img_580.jpg|Trend|Clarendon
+img_581.jpg|TS Block|Helvetica Black Extended
+img_582.jpg|TT Norms|Segoe UI
+img_583.jpg|Tungsten|Compacta
+img_584.jpg|Ubuntu|Arial
+img_585.jpg|Ubuntu Condensed|DIN 1451 Engschrift
+img_586.jpg|Ubuntu Mono|Clash Grotesk
+img_587.jpg|Unbounded|Arial
+img_588.jpg|Undergrad|Freshman
+img_590.jpg|Unna|Computer Modern Roman
+img_591.jpg|Urbanist|Helvetica Neue
+img_593.jpg|URW DIN|Gotham
+img_594.jpg|Utopia|Times New Roman
+img_595.jpg|Vacation|Modern No. 20
+img_596.jpg|Vadelma|Yellowtail
+img_597.jpg|Valoon|Bubble Shine
+img_598.jpg|Vampire Wars|Abrupt
+img_602.jpg|VCR OSD Mono|MS Sans Serif
+img_603.jpg|Verlag|Pathway Gothic One
+img_604.jpg|Vitesse|Clarendon
+img_605.jpg|Vogue|Didot
+img_606.jpg|Vollkorn|Times New Roman
+img_608.jpg|Walter|Waltograph
+img_610.jpg|Weather Sunday|Commercial Script
+img_611.jpg|Whitney|Avenir
+img_612.jpg|Who asks Satan|Abrupt
+img_613.jpg|WildWords|Marker Felt
+img_615.jpg|Work Sans|Arial
+img_616.jpg|Yanone Kaffeesatz|Alternate Gothic
+img_617.jpg|Yantramanav|Arial
+img_620.jpg|Zapfino Extra|Poetica Std
+img_621.jpg|Zeyada|Abrupt
+img_622.jpg|Ziggurat|Clarendon
+img_623.jpg|Zilla Slab|Courier
+img_624.jpg|Zing Rust|Abrupt

@@ -1,0 +1,30 @@
+{
+    "run_id": "d7b6d7de",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 24,
+    "avg_ms": 3963,
+    "top": {
+        "top1": {
+            "hits": 526,
+            "of": 624,
+            "pct": 84.29
+        },
+        "top5": {
+            "hits": 592,
+            "of": 624,
+            "pct": 94.87
+        },
+        "top10": {
+            "hits": 596,
+            "of": 624,
+            "pct": 95.51
+        },
+        "top20": {
+            "hits": 600,
+            "of": 624,
+            "pct": 96.15
+        }
+    }
+}

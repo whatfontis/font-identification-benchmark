@@ -1,0 +1,6 @@
+Identify the typeface used for the text in this image.
+
+Reply with JSON only, in exactly this shape:
+{"fonts": ["most likely font", "second most likely font", "..."]}
+
+List up to 20 fonts, most likely first. Use each font's published family name (for example "Helvetica Neue" or "Playfair Display"). If you are not sure, still give your best guesses in order.

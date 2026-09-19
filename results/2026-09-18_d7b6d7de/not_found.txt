@@ -1,0 +1,26 @@
+# Images where the expected font was not in the API's top 20 (run d7b6d7de)
+# file|expected|what the API returned first
+img_030.jpg|Another Danger|CUBWORLD
+img_042.jpg|Assistant|Noto Sans CJK KR DemiLight
+img_086.jpg|Blastimo Sans|Sharp Grotesk Latin Semi Bold 06
+img_087.jpg|BlincType Letterpress Fontpak|Gomorrah
+img_089.jpg|Bluesky|Smoothie Cream
+img_098.jpg|Break|Florest Outline
+img_107.jpg|Butterscotch|Friday Vibes otf (400)
+img_114.jpg|Candy|Amellia Benitta
+img_128.jpg|Cheri|Piligrimistic2 otf (400)
+img_134.jpg|Christmas|BabyGarland
+img_139.jpg|Christmas Sparkle|Scater-Italic
+img_182.jpg|Docallisme On Street|SPOOKY MONSTER BASE
+img_252.jpg|Golden|Dairy
+img_299.jpg|Intrepid Spear|Deko Display Serial Bold Italic
+img_357.jpg|Love|Dinomik otf (700)
+img_382.jpg|Merry Christmas|Mardian Pro
+img_383.jpg|Michelle|Costaline-Black
+img_519.jpg|Salma|Cutie Danila otf (400)
+img_558.jpg|Swiss 721|Balcanica Regular
+img_561.jpg|Taken by Vultures|Winthi Jholta Regular otf (400)
+img_566.jpg|The Beach|Stage
+img_569.jpg|The Grinch|Hey Teacher
+img_573.jpg|Times|Moskva Pro Regular
+img_620.jpg|Zapfino Extra|Northport Bold Italic

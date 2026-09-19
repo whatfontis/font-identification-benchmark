@@ -1,0 +1,27 @@
+# Extracted image folders (kept only as zips in LFS)
+test-images/imagenospace/
+test-images/image/
+test-images/myfonts-top10.zip
+
+# API key or per-user overrides
+scripts/api_key.php
+scripts/llm_keys.php
+.env
+
+# LFS clone staging
+_lfs_clone/
+
+# Local scratch
+scratch/
+*.log
+
+# Local copies of test images per run (the renders are not redistributed; see not_found.txt instead)
+results/*/not_found_images/
+results/*/notfound_retest/
+results/_aborted_*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

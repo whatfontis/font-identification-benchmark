@@ -1,0 +1,417 @@
+# Images where the expected font was not in the model's list (claude-fable-5-1, run 8ea83dfe)
+# file|expected|what the model answered first
+img_002.jpg|ABeeZee|Abel
+img_003.jpg|Abel|Barlow
+img_004.jpg|Abramo|Hello Honey
+img_006.jpg|Acme|Tuffy
+img_007.jpg|Acumin|Arial
+img_008.jpg|Adelia|Gochi Hand
+img_009.jpg|Advent|Abrupt
+img_010.jpg|Agatho|Clarendon
+img_011.jpg|Agora|Cooper Black
+img_012.jpg|Akira Expanded|Monument Extended
+img_015.jpg|Albra|Playfair Display
+img_017.jpg|Alegreya Sans|Aller
+img_019.jpg|Alice|Palatino
+img_020.jpg|Almarai|Arial
+img_021.jpg|Amarillo|Lobster
+img_022.jpg|Amasis|Charter Bold Italic
+img_024.jpg|American Captain|Anton
+img_025.jpg|Amiri|Gentium
+img_027.jpg|Ananda|Great Vibes
+img_028.jpg|Ancient|Old English Text MT
+img_029.jpg|Ano|Century Gothic
+img_030.jpg|Another Danger|28 Days Later
+img_032.jpg|Archer|Rockwell Extra Bold
+img_034.jpg|Archivo|Arial
+img_035.jpg|Archivo Black|Open Sans Extrabold
+img_038.jpg|Arsenal|Rotis Sans Serif
+img_040.jpg|Asap|Ubuntu
+img_042.jpg|Assistant|Segoe UI
+img_043.jpg|Astralaga|Bodoni Moda
+img_044.jpg|Atomic Marker|Nervous Rex
+img_045.jpg|Aurora|Bubble Bobble
+img_046.jpg|Austral Slab|Rockwell
+img_047.jpg|Authenia|Abrupt
+img_051.jpg|Azonix|Orbitron
+img_052.jpg|Baby Doll|Abrupt
+img_054.jpg|Bailenson|Chopin Script
+img_055.jpg|Balerga|Wremena
+img_056.jpg|Bandito Script|Abrupt
+img_057.jpg|Barlington|Fenwick
+img_061.jpg|Batman Forever|Abrupt
+img_062.jpg|Beautiful Barbies|Sacramento
+img_063.jpg|Beautiful Christmas|Great Vibes
+img_067.jpg|Berthold Corporate E|Zilla Slab Light
+img_068.jpg|Better Time|Britany Signature
+img_069.jpg|Better Times|Brusher
+img_070.jpg|Be Vietnam|Graphik
+img_071.jpg|Beyonders|Ethnocentric
+img_072.jpg|Biennale|Montserrat Thin
+img_074.jpg|Billion Dreams|Lobster
+img_075.jpg|Billy Ohio|Abrupt
+img_076.jpg|Biospace|Bodoni Moda
+img_077.jpg|Birds of Paradise|Snell Roundhand
+img_078.jpg|Biro Script Plus|Abrupt
+img_079.jpg|Bisney|Adelia
+img_081.jpg|Blacker|Playfair Display
+img_082.jpg|Black Hulk|Frankfurter
+img_084.jpg|Blackout Sunrise|Wienerhand Outline
+img_085.jpg|Blacksword|Alex Brush
+img_086.jpg|Blastimo Sans|Anagram
+img_087.jpg|BlincType Letterpress Fontpak|Haettenschweiler
+img_088.jpg|Blosta|Burgues Script
+img_089.jpg|Bluesky|Fredoka One
+img_091.jpg|Bodoni Egyptian|Rockwell
+img_093.jpg|Bogart|Zilla Slab Light
+img_094.jpg|Bon Vivant Family|Ogg
+img_096.jpg|Boton|Zilla Slab Light
+img_098.jpg|Break|Abrupt
+img_099.jpg|Breathing|Brittany Signature
+img_100.jpg|Bree Serif|Droid Serif
+img_102.jpg|Bronzion Deco|Blackwood Castle
+img_105.jpg|Built Titling|Anton
+img_106.jpg|Bungee|Lemon Milk
+img_107.jpg|Butterscotch|Brittany Signature
+img_108.jpg|Cabin|Segoe UI
+img_110.jpg|Cakeroll|Bangers
+img_111.jpg|Calligraphy|Great Vibes
+img_113.jpg|Campton|Brandon Grotesque
+img_114.jpg|Candy|Brittany Signature
+img_116.jpg|Cantarell|Corbel
+img_118.jpg|Carter|Fago
+img_119.jpg|Catamaran|Gill Sans
+img_121.jpg|Caviar Dreams|Futura Light
+img_123.jpg|Chakra Petch|Aldrich
+img_124.jpg|Chaloops|Abrupt
+img_125.jpg|Changa|Abrupt
+img_126.jpg|Chaparral|Merriweather
+img_127.jpg|Chatime|Playfair Display
+img_128.jpg|Cheri|Chewy
+img_129.jpg|Cherolina|Adelia
+img_130.jpg|Chicken Pie|Chewy
+img_131.jpg|Chiffon|Cormorant Garamond
+img_132.jpg|Chivo|Rubik
+img_133.jpg|Chomixi|Alpha Charlie
+img_134.jpg|Christmas|Abrupt
+img_135.jpg|Christmas and Santona|Milkshake
+img_137.jpg|Christmas Bell|Abrupt
+img_138.jpg|Christmas Carol|Kunstler Script
+img_139.jpg|Christmas Sparkle|Angilla Tattoo
+img_140.jpg|Christmas Squad|Lobster
+img_142.jpg|Christmas Wish Calligraphy|Lobster
+img_143.jpg|Christmas Wish Monoline|Adorn Serif
+img_145.jpg|Chronicle Text|Century Schoolbook
+img_148.jpg|Classy Vogue|Bodoni Moda
+img_152.jpg|Commissioner|Fira Sans
+img_153.jpg|Concert|Barlow Semi Condensed
+img_154.jpg|Conte Script Plus|Abrupt
+img_156.jpg|Coolvetica|Eurostile
+img_160.jpg|Courgette|Chalet Comprime
+img_161.jpg|Couture|Montserrat
+img_162.jpg|Cream Cake|Pacifico
+img_164.jpg|Crima|Abril Fatface
+img_166.jpg|Crimson Text|Palatino
+img_167.jpg|Cuprum|Fira Sans Condensed
+img_168.jpg|Daily Note|Chewy
+img_170.jpg|Danger Agenda|Rubik Mono One
+img_171.jpg|Darwin Smith|Abrupt
+img_172.jpg|Daykids|Chewy
+img_173.jpg|Debora Celina Script|Brittany Signature
+img_174.jpg|Designer|Ethnocentric
+img_175.jpg|Desirable Calligraphy|Burgues Script
+img_176.jpg|Des Montilles|Abrupt
+img_177.jpg|Didact Gothic|Futura
+img_179.jpg|DIN Next Slab|Bitter
+img_180.jpg|DM Sans|Sofia Pro
+img_184.jpg|Domine|Droid Serif
+img_186.jpg|Dream Girl|Brittany Signature
+img_187.jpg|Dreaming Outloud|Pacifico
+img_188.jpg|DT Augustina Slab|Roboto Serif
+img_190.jpg|Editors Note|Playfair Display
+img_191.jpg|Egyptienne|Anton
+img_192.jpg|El Messiri|Friz Quadrata
+img_193.jpg|Emperatriz|Josefin Slab
+img_194.jpg|Emy Slab|Josefin Slab
+img_195.jpg|Encode Sans|Segoe UI
+img_198.jpg|Eyesome|Brittany Signature
+img_199.jpg|Fanlste|Bodoni Moda
+img_200.jpg|Feeling Passionate|Abrupt
+img_201.jpg|FF DIN|Roboto Condensed
+img_202.jpg|FF Elementa|Courier Prime
+img_203.jpg|FF Ernestine|Arvo
+img_204.jpg|FF Eureka|Merriweather
+img_205.jpg|FF Fago|Fira Sans Condensed
+img_206.jpg|FF Franziska|Roboto Slab
+img_207.jpg|FF Hertz|Century Schoolbook
+img_208.jpg|f Finish|Bebas Neue
+img_209.jpg|FF Kievit|Segoe UI
+img_210.jpg|FF Market|Abrupt
+img_212.jpg|FF Meta Serif|Droid Serif
+img_213.jpg|FF Providence Sans|Abrupt
+img_214.jpg|FF Tisa|Merriweather
+img_215.jpg|Figtree|Avenir
+img_216.jpg|Fineday|Lobster
+img_217.jpg|Fiolex Girls|Adine Kirnberg
+img_219.jpg|Fjalla|Roboto Condensed
+img_220.jpg|Food Truck|Indie Flower
+img_221.jpg|Foundry Form Serif|Droid Serif
+img_222.jpg|Francois|Roboto Condensed
+img_224.jpg|Frank Ruhl Libre|Georgia
+img_225.jpg|Freeland|Abrupt
+img_226.jpg|Freight Text|Alegreya
+img_229.jpg|Frutiger|Avenir Next
+img_230.jpg|FS Kim|Marcellus
+img_231.jpg|FS Me|Segoe UI
+img_232.jpg|FS Ostro|Century Schoolbook
+img_233.jpg|FS Rufus|Zilla Slab
+img_237.jpg|Gagisra Rigade|Abril Display
+img_239.jpg|Gang of Three|Shojumaru
+img_240.jpg|Garnet|Herr Von Muellerhoff
+img_241.jpg|Gazpacho|Cormorant Garamond
+img_242.jpg|Gelica|Cooper Black
+img_243.jpg|Genty|Brush Script MT
+img_246.jpg|Ghibo Talk|Bangers
+img_248.jpg|Gilroy|Quicksand
+img_249.jpg|Gloria Hallelujah|Abrupt
+img_251.jpg|Gobold|Bebas Neue
+img_252.jpg|Golden|Abrupt
+img_253.jpg|Golden Hopes|Brittany Signature
+img_254.jpg|Goldplay|Quicksand
+img_255.jpg|Gotham|Abrupt
+img_256.jpg|Gothic A1|Nimbus Sans
+img_257.jpg|Gothicus Vulgaris|Abrupt
+img_258.jpg|Granesta|Brush King
+img_260.jpg|Greycliff CF|Poppins
+img_261.jpg|Grinched|Badaboom BB
+img_262.jpg|Gruppo|Antique Olive Nord
+img_263.jpg|Guthen Bloots|Abrupt
+img_264.jpg|Handelson|Lobster
+img_265.jpg|Handwind|Brittany Signature
+img_266.jpg|Hanley|Bevan
+img_267.jpg|Harman|Great Vibes
+img_268.jpg|Harmonia Sans|Quicksand
+img_270.jpg|Heading Now|Roboto Condensed
+img_271.jpg|Heartless|Nightmare Hero
+img_272.jpg|Heavenly Christmas|Abrupt
+img_273.jpg|Heavitas|Cocogoose
+img_277.jpg|Hello Paris|Allison
+img_281.jpg|Helvetica Now Variable|Karla
+img_282.jpg|Hey Comic|Chewy
+img_286.jpg|Hisbullah|Pump
+img_287.jpg|Home Christmas|Abrupt
+img_288.jpg|Home Kitchen|KG Ten Thousand Reasons
+img_289.jpg|Homepage|Abrupt
+img_290.jpg|Honey Black|Abrupt
+img_291.jpg|Honeypirls|Benguiat
+img_292.jpg|Hug Me Tight|KG Ten Thousand Reasons
+img_296.jpg|Indoor Design|Abrupt
+img_299.jpg|Intrepid Spear|Anton
+img_300.jpg|Intro Rust|Cabin Sketch
+img_301.jpg|Ionic No 5|Zilla Slab
+img_302.jpg|Isidora|Quicksand
+img_303.jpg|Italia|Rockwell Extra Bold
+img_308.jpg|ITC Cheltenham|Rotis Serif
+img_309.jpg|ITC Clearface|Fanwood
+img_314.jpg|ITC Officina Serif|Zilla Slab
+img_315.jpg|ITC Serif Gothic|Abrupt
+img_317.jpg|ITC Stone Serif|Gentium
+img_319.jpg|Joanna|Palatino
+img_320.jpg|Joanna Nova|Crimson Text
+img_323.jpg|Joseph Sophia|Delighted
+img_325.jpg|Juana|Cormorant Garamond
+img_327.jpg|Kanit|Titillium Web
+img_329.jpg|Kastella Script|Lobster
+img_331.jpg|Keep on Truckin|Cooper Black
+img_332.jpg|KG Red Hands|Comic Sans MS
+img_333.jpg|Khand|Saira Condensed
+img_334.jpg|Kids Draw|Abrupt
+img_335.jpg|Kids Zona|Chewy
+img_336.jpg|Knockout|Compacta
+img_337.jpg|Kollera|Bodoni
+img_340.jpg|La Luxes|Rosarivo
+img_341.jpg|Larken|Kaisei Tokumin
+img_343.jpg|Lemon Milk|Futura
+img_344.jpg|Lemon Yellow Sun|Amatic SC
+img_345.jpg|Letteria|Bourbon
+img_346.jpg|Lexend|Century Gothic
+img_347.jpg|Lexend Deca|Century Gothic
+img_348.jpg|Libre Baskerville|Palatino
+img_349.jpg|Libre Franklin|Fira Sans
+img_351.jpg|Limited|Hello Honey
+img_355.jpg|Lora|Gentium
+img_356.jpg|Louis George|Century Gothic
+img_357.jpg|Love|Abrupt
+img_358.jpg|Lovelace|Silk Serif
+img_359.jpg|Lovely May|Brittany Signature
+img_362.jpg|Macklin|Rozha One
+img_363.jpg|MADE Tommy|Montserrat
+img_364.jpg|Madina|Great Vibes
+img_365.jpg|Mafra|Source Serif Pro
+img_366.jpg|Maison Neue|Manrope
+img_367.jpg|Mangrove|Pacifico
+img_369.jpg|Marcellus|Friz Quadrata
+img_370.jpg|Marola|Abrupt
+img_371.jpg|Martel|Droid Serif
+img_372.jpg|Marysville|Lobster
+img_373.jpg|Masa Groovy|Chubby Cheeks
+img_374.jpg|Mate|Vollkorn
+img_375.jpg|Mate SC|Fontin
+img_376.jpg|Mathovia Script|Lobster
+img_379.jpg|Mercury Text|Merriweather
+img_382.jpg|Merry Christmas|Alex Brush
+img_383.jpg|Michelle|Abril Fatface
+img_384.jpg|Mikaway|Times New Roman
+img_385.jpg|Milk Mango|Chewy
+img_387.jpg|Miraculous Christmas|Bukhari Script
+img_388.jpg|Mirador|Rufina
+img_389.jpg|M Ling Wai F HK|Indie Flower
+img_390.jpg|M Ling Wai TC|Indie Flower
+img_391.jpg|Modernline|Brittany Signature
+img_392.jpg|Modern Love|Abrupt
+img_393.jpg|Moline Quotes Sans|Abrupt
+img_395.jpg|Monroe|Bree Serif
+img_396.jpg|Mont|Montserrat
+img_399.jpg|Moon Time|Bellisia
+img_400.jpg|Mosenta Script|Lobster
+img_401.jpg|Motley Forces|Chewy
+img_402.jpg|Mr Dodo|Rockwell
+img_403.jpg|Mrs Eaves|Cormorant Garamond
+img_404.jpg|MSung HK|Bodoni Moda
+img_405.jpg|Mukta|Verdana
+img_406.jpg|Multiple|Roboto Slab
+img_407.jpg|Mundo Serif|Alegreya
+img_409.jpg|Muthiara|Hello Honey
+img_410.jpg|Nanum Gothic|Source Sans Pro
+img_411.jpg|Nanum Myeongjo|Cormorant Garamond
+img_412.jpg|National Forest|Lobster
+img_413.jpg|Neue Frutiger|Avenir
+img_419.jpg|Neuton|Charis SIL
+img_421.jpg|New Romantics|Times New Roman
+img_422.jpg|Nexa|Questrial
+img_423.jpg|Nexa Rust|Kaushan Script
+img_424.jpg|Nexa Slab|Arvo
+img_427.jpg|Northwell|Brittany Signature
+img_428.jpg|Noticia Text|Droid Serif
+img_435.jpg|Oleo Script|Marko One
+img_437.jpg|Operetta|Computer Modern
+img_440.jpg|Outfit|Century Gothic
+img_441.jpg|Overpass|Roboto
+img_442.jpg|Overthink|Brittany Signature
+img_443.jpg|Oxygen|Liberation Sans
+img_444.jpg|P22 Mackinac|Alegreya
+img_447.jpg|Panic|Comic Book
+img_448.jpg|Passion|Anton
+img_449.jpg|Pathway Gothic|Roboto Condensed
+img_450.jpg|Patron|Inter
+img_451.jpg|Patua|Bree Serif
+img_452.jpg|Paytone|Futura
+img_454.jpg|Petrona|Gentium
+img_455.jpg|PF DIN Text|Roboto Condensed
+img_456.jpg|Philosopher|Friz Quadrata
+img_458.jpg|Planet Kosmos|Pricedown
+img_459.jpg|Plantin|Goudy Old Style
+img_462.jpg|Plus Jakarta Sans|Century Gothic
+img_463.jpg|PMN Caecilia|Skolar
+img_465.jpg|Porky|Chubby Cheeks
+img_467.jpg|Present|Abrupt
+img_470.jpg|Productive Day|Kalam
+img_471.jpg|Prompt|Century Gothic
+img_475.jpg|PW Joyeux Noel|Snowtop Caps
+img_476.jpg|Qakergu|Recoleta
+img_477.jpg|Quadon|Zilla Slab
+img_478.jpg|Quarto|Playfair Display
+img_479.jpg|Quattrocento|Berkeley Oldstyle
+img_480.jpg|Quattrocento Sans|Avenir
+img_482.jpg|Quickpen|Mrs Saint Delafield
+img_486.jpg|Rameau|Vidaloka
+img_487.jpg|Readex|Century Gothic
+img_488.jpg|Recoleta|Lora
+img_489.jpg|Red Burger|Chubby Cheeks
+img_490.jpg|Red Hat Display|Century Gothic
+img_491.jpg|Relington|Britannic
+img_493.jpg|Rethinker|Autography
+img_495.jpg|Righteous|Abrupt
+img_503.jpg|Rockline|Brittany Signature
+img_505.jpg|Rokkitt|Rockwell
+img_506.jpg|Rolate|Bodoni Moda
+img_507.jpg|Rosela|Century Schoolbook
+img_508.jpg|Rotis Sans Serif|Trade Gothic Next
+img_509.jpg|Rowdies|Fritz Quadrata
+img_510.jpg|Roxborough CF|Cormorant Garamond Italic
+img_512.jpg|Rumble Brave Vintage Fonts|Great Vibes
+img_514.jpg|Rustic Market|Abrupt
+img_515.jpg|Sabina|Abrupt
+img_519.jpg|Salma|Bromello
+img_521.jpg|Sarabun|Segoe UI
+img_523.jpg|Sawarabi Gothic|Arimo
+img_524.jpg|Sawarabi Mincho|Rotis Serif
+img_525.jpg|Scala|Fenix
+img_526.jpg|Sentinel|Roboto Serif
+img_528.jpg|Shadows Into Light|Abrupt
+img_529.jpg|Signatra|Lobster
+img_530.jpg|Signatrue|Brittany Signature
+img_533.jpg|Silent Handwritting|Just Another Hand
+img_534.jpg|Silk Serif|Rosarivo
+img_535.jpg|Simon Lovely|Chewy
+img_536.jpg|Slabo|Fedra Serif
+img_539.jpg|Soho|Bitter
+img_540.jpg|Sora|Ubuntu
+img_542.jpg|Southland|Adelia
+img_544.jpg|Spectral|Palatino
+img_545.jpg|Spritz And Delicious|Algerian
+img_546.jpg|Square Slabserif 711|Geogrotesque Slab
+img_547.jpg|Starborn|Bangers
+img_548.jpg|Star Jedi|Bauhaus 93
+img_549.jpg|Stigfier|Butler
+img_550.jpg|Stolen Times|Great Vibes
+img_551.jpg|Stormlight|(no answer)
+img_552.jpg|Stretch|Helvetica Neue Extended Black
+img_553.jpg|Study Alone|Delius
+img_554.jpg|Sunday Best|Amatic SC
+img_555.jpg|Super Funnel|Chubby Cheeks
+img_556.jpg|Super Mario 256|Brushstrike
+img_557.jpg|Suti|Abrupt
+img_559.jpg|Taberna|Pacifico
+img_560.jpg|Tajawal|Fira Sans
+img_561.jpg|Taken by Vultures|Autography
+img_562.jpg|Tazugane Gothic|Product Sans
+img_563.jpg|Technotyp|Egyptienne
+img_565.jpg|The Augusta|Fenwick
+img_566.jpg|The Beach|Brittany Signature
+img_567.jpg|The Bold Font|Futura Extra Bold
+img_568.jpg|The Christmas|Brittany Signature
+img_569.jpg|The Grinch|Brittany Signature
+img_570.jpg|The Seasons|Cormorant Garamond
+img_571.jpg|TheSerif|Fenix
+img_572.jpg|The Smile|Bellico
+img_577.jpg|Tonight Friend|Chewy
+img_578.jpg|Trade Gothic|Barlow
+img_580.jpg|Trend|Arvo
+img_581.jpg|TS Block|Eurostile Extended Black
+img_582.jpg|TT Norms|Avenir
+img_587.jpg|Unbounded|Montserrat
+img_588.jpg|Undergrad|Octin College
+img_590.jpg|Unna|Bodoni Moda
+img_591.jpg|Urbanist|Futura
+img_593.jpg|URW DIN|Titillium Web
+img_594.jpg|Utopia|PT Serif
+img_595.jpg|Vacation|Times New Roman
+img_596.jpg|Vadelma|Pacifico
+img_597.jpg|Valoon|Bubble Bobble
+img_598.jpg|Vampire Wars|Abrupt
+img_602.jpg|VCR OSD Mono|Press Start 2P
+img_603.jpg|Verlag|Abrupt
+img_604.jpg|Vitesse|Vitro
+img_605.jpg|Vogue|Bodoni Moda
+img_606.jpg|Vollkorn|Palatino
+img_607.jpg|Walbaum|Bodoni Moda
+img_608.jpg|Walter|Waltograph
+img_610.jpg|Weather Sunday|Great Vibes
+img_611.jpg|Whitney|Fira Sans
+img_612.jpg|Who asks Satan|Abrupt
+img_614.jpg|Winner|Octin College
+img_617.jpg|Yantramanav|Arial
+img_618.jpg|Yellow Style|Bubblegum Sans
+img_621.jpg|Zeyada|Kristen ITC
+img_622.jpg|Ziggurat|Rockwell Extra Bold

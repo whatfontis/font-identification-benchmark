@@ -1,0 +1,21 @@
+{
+    "run_id": "d7b6d7de",
+    "date_utc": "2026-09-18T15:22:07+00:00",
+    "endpoint": "https://www.whatfontis.com/api2/",
+    "api_version": "api2",
+    "aimodel": null,
+    "mode": "fully_automated",
+    "folder": "imagenospace",
+    "test_set_source": "https://github.com/whatfontis/Font-Finder",
+    "matcher": "scripts/match_helpers.php",
+    "limit": 20,
+    "depths": [
+        1,
+        5,
+        10,
+        20
+    ],
+    "timeout_s": 120,
+    "total_images": 624,
+    "finished_utc": "2026-09-18T16:03:24+00:00"
+}

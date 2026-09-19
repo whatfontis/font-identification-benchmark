@@ -1,0 +1,6 @@
+<?php
+// Copy this file to `scripts/api_key.php` and put your key in it.
+// scripts/api_key.php is in .gitignore so it never gets committed.
+//
+// Get an API key: https://www.whatfontis.com/API-identify-fonts-from-image.html
+return 'YOUR_API_KEY_HERE';

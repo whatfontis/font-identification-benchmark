@@ -1,0 +1,27 @@
+{
+    "run_id": "8ea83dfe",
+    "date_utc": "2026-09-18T18:20:15+00:00",
+    "provider": "anthropic",
+    "model": "claude-fable-5-1",
+    "mode": "fully_automated",
+    "folder": "imagenospace",
+    "prompt_file": "prompts/font_id_llm.txt",
+    "prompt_sha256": "14f5fed5df1cd910b60e880d6629f7f6178a9c2fffbd6a47fce5c40d0ea6cf52",
+    "request": "image + prompt, provider defaults otherwise (no temperature, no reasoning/thinking settings, no tools, no web search)",
+    "max_tokens": 16000,
+    "concurrency": 4,
+    "timeout_s": 600,
+    "limit": 20,
+    "depths": [
+        1,
+        5,
+        10,
+        20
+    ],
+    "matcher": "scripts/match_helpers.php",
+    "total_images": 624,
+    "finished_utc": "2026-09-18T18:42:39+00:00",
+    "models_reported": [
+        "claude-fable-5-1"
+    ]
+}

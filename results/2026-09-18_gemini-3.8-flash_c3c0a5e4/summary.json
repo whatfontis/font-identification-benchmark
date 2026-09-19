@@ -1,0 +1,37 @@
+{
+    "run_id": "c3c0a5e4",
+    "provider": "google",
+    "model": "gemini-3.8-flash",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 509,
+    "unparsed": 0,
+    "refusals": 0,
+    "stop_reasons": {
+        "STOP": 624
+    },
+    "avg_ms": 12765,
+    "top": {
+        "top1": {
+            "hits": 27,
+            "of": 624,
+            "pct": 4.33
+        },
+        "top5": {
+            "hits": 57,
+            "of": 624,
+            "pct": 9.13
+        },
+        "top10": {
+            "hits": 87,
+            "of": 624,
+            "pct": 13.94
+        },
+        "top20": {
+            "hits": 115,
+            "of": 624,
+            "pct": 18.43
+        }
+    }
+}
