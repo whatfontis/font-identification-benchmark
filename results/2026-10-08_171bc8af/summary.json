@@ -1,0 +1,30 @@
+{
+    "run_id": "171bc8af",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 9,
+    "avg_ms": 12242,
+    "top": {
+        "top1": {
+            "hits": 580,
+            "of": 624,
+            "pct": 92.95
+        },
+        "top5": {
+            "hits": 612,
+            "of": 624,
+            "pct": 98.08
+        },
+        "top10": {
+            "hits": 615,
+            "of": 624,
+            "pct": 98.56
+        },
+        "top20": {
+            "hits": 615,
+            "of": 624,
+            "pct": 98.56
+        }
+    }
+}

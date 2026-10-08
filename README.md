@@ -12,29 +12,34 @@ The benchmark scores an API's ability to return the correct font in Top-1 / Top-
 
 ## Latest result
 
-Run [`results/2026-09-18_d7b6d7de/`](results/2026-09-18_d7b6d7de/) — public endpoint `https://www.whatfontis.com/api2/`, no model parameter sent, fully automated, all 624 images, 0 errors.
+Run [`results/2026-10-08_171bc8af/`](results/2026-10-08_171bc8af/) — public endpoint `https://www.whatfontis.com/api2/`, no model parameter sent, fully automated, all 624 images, 0 errors.
 
-| | This run | Blog article |
-|---|---:|---:|
-| Top-1 | **84.29%** (526/624) | 81.4% |
-| Top-5 | **94.87%** (592/624) | 92.8% |
-| Top-10 | **95.51%** (596/624) | – |
-| Top-20 | **96.15%** (600/624) | 96.3% |
-| Not in top 20 | 24 | – |
-| Average time per image | 3.96 s | – |
+Between the two runs the service behind the same URL changed: it now searches several identification models for each request instead of one. Each call takes about three times longer, and the right font comes back first more often.
 
-- Started 2026-09-18 15:22 UTC, finished 16:03 UTC.
-- The 24 misses, with what the API returned first, are in [`not_found.txt`](results/2026-09-18_d7b6d7de/not_found.txt).
+| | This run (2026-10-08) | Previous run (2026-09-18) | Blog article |
+|---|---:|---:|---:|
+| Top-1 | **92.95%** (580/624) | 84.29% (526/624) | 81.4% |
+| Top-5 | **98.08%** (612/624) | 94.87% (592/624) | 92.8% |
+| Top-10 | **98.56%** (615/624) | 95.51% (596/624) | – |
+| Top-20 | **98.56%** (615/624) | 96.15% (600/624) | 96.3% |
+| Not in top 20 | 9 | 24 | – |
+| Median time per image | 11.95 s | 3.74 s | – |
+| Average time per image | 12.24 s | 3.96 s | – |
+
+- Started 2026-10-08 16:24 UTC, finished 18:31 UTC.
+- Image by image against the previous run: 69 images ranked higher, 10 lower, 545 unchanged. Top-1 gained 60 images and lost 6.
+- Of the 24 misses in September, 17 are now found and 7 are missed in both runs. Two images are new misses: `img_447.jpg` (Top-1 in September) and `img_568.jpg` (rank 9 in September). The 9 misses, with what the API returned first, are in [`not_found.txt`](results/2026-10-08_171bc8af/not_found.txt).
 - Scored with `scripts/match_helpers.php` as it is in this repository; the rescore below reproduces the numbers.
-- `responses.jsonl` keeps the font list of every response as returned. The API also returns an internal diagnostics block (`model`), which is not stored.
+- `responses.jsonl` keeps the font list of every response as returned. The API also returns an internal diagnostics block (`model`), which is not stored. In this run the API returns the font list directly (`"raw": [...]`); in September it was wrapped in an object (`"raw": {"results": [...]}`). `rescore.php` reads both.
 
 Check it yourself, no API key needed:
 
 ```bash
+php scripts/rescore.php results/2026-10-08_171bc8af
 php scripts/rescore.php results/2026-09-18_d7b6d7de
 ```
 
-It re-scores every raw response in `responses.jsonl` against `test-images/info.txt` and exits non-zero if the result differs from `summary.json`.
+Each re-scores every raw response in `responses.jsonl` against `test-images/info.txt` and exits non-zero if the result differs from `summary.json`.
 
 Results are not bit-identical between runs: the same image can come back with a different ranking on a second call, so a re-run can differ by a few images.
 
@@ -44,19 +49,20 @@ Results are not bit-identical between runs: the same image can come back with a 
 
 The same 624 images, sent on 2026-09-18 to three general-purpose multimodal models through their public APIs. Every model got the same image and the same prompt ([`prompts/font_id_llm.txt`](prompts/font_id_llm.txt)), asking for up to 20 font names, most likely first, as JSON. Provider defaults otherwise: no temperature, no reasoning or thinking settings, no tools, no web search. The answers are scored with the same matcher as the WhatFontIs run.
 
-| | WhatFontIs `api2` | GPT-6 Astra | Claude Fable 5.1 | Gemini 3.8 Flash |
-|---|---:|---:|---:|---:|
-| Model ID | – | `gpt-6-astra` | `claude-fable-5-1` | `gemini-3.8-flash` |
-| Top-1 | **84.29%** (526) | 14.42% (90) | 8.65% (54) | 4.33% (27) |
-| Top-5 | **94.87%** (592) | 23.72% (148) | 19.07% (119) | 9.13% (57) |
-| Top-10 | **95.51%** (596) | 27.56% (172) | 26.60% (166) | 13.94% (87) |
-| Top-20 | **96.15%** (600) | 27.56% (172) | 33.49% (209) | 18.43% (115) |
-| Not in the answer | 24 | 452 | 415 | 509 |
-| Errors | 0 | 0 | 0 | 0 |
-| Average time per image | 4.0 s | 26.4 s | 7.2 s | 12.8 s |
-| API cost for 624 images | – | $25.65 | $7.80 | $6.77 |
-| Run folder | [`d7b6d7de`](results/2026-09-18_d7b6d7de/) | [`aa9ad5cc`](results/2026-09-18_gpt-6-astra_aa9ad5cc/) | [`8ea83dfe`](results/2026-09-18_claude-fable-5-1_8ea83dfe/) | [`c3c0a5e4`](results/2026-09-18_gemini-3.8-flash_c3c0a5e4/) |
+| | WhatFontIs `api2`<br>2026-10-08 | WhatFontIs `api2`<br>2026-09-18 | GPT-6 Astra | Claude Fable 5.1 | Gemini 3.8 Flash |
+|---|---:|---:|---:|---:|---:|
+| Model ID | – | – | `gpt-6-astra` | `claude-fable-5-1` | `gemini-3.8-flash` |
+| Top-1 | **92.95%** (580) | 84.29% (526) | 14.42% (90) | 8.65% (54) | 4.33% (27) |
+| Top-5 | **98.08%** (612) | 94.87% (592) | 23.72% (148) | 19.07% (119) | 9.13% (57) |
+| Top-10 | **98.56%** (615) | 95.51% (596) | 27.56% (172) | 26.60% (166) | 13.94% (87) |
+| Top-20 | **98.56%** (615) | 96.15% (600) | 27.56% (172) | 33.49% (209) | 18.43% (115) |
+| Not in the answer | 9 | 24 | 452 | 415 | 509 |
+| Errors | 0 | 0 | 0 | 0 | 0 |
+| Average time per image | 12.2 s | 4.0 s | 26.4 s | 7.2 s | 12.8 s |
+| API cost for 624 images | – | – | $25.65 | $7.80 | $6.77 |
+| Run folder | [`171bc8af`](results/2026-10-08_171bc8af/) | [`d7b6d7de`](results/2026-09-18_d7b6d7de/) | [`aa9ad5cc`](results/2026-09-18_gpt-6-astra_aa9ad5cc/) | [`8ea83dfe`](results/2026-09-18_claude-fable-5-1_8ea83dfe/) | [`c3c0a5e4`](results/2026-09-18_gemini-3.8-flash_c3c0a5e4/) |
 
+- The general-purpose models were run on 2026-09-18, the same day as the September WhatFontIs run; the October column is the WhatFontIs service after the change described above.
 - GPT-6 Astra usually answered with 8–12 names rather than 20, so its Top-20 equals its Top-10.
 - Claude Fable 5.1 refused one image (`img_551.jpg`, `stop_reason: refusal`); it counts as a miss. No other refusals, and every other reply had a readable list.
 - Cost is computed from the token counts each API reported (in `responses.jsonl`) at list prices on 2026-09-18: GPT-6 Astra and Claude Fable 5.1 $10 / $50 per 1M input / output tokens, Gemini 3.8 Flash $0.75 / $3.75. Reasoning tokens are billed as output.
@@ -175,7 +181,7 @@ php scripts/run_benchmark.php imagenospace
 php scripts/rescore.php results/<date>_<run-id>
 ```
 
-Runtime: **~40 minutes** (`~4s` per image, 624 images).
+Runtime: **~2 hours** (`~12s` per image, 624 images) since the October 2026 change; it was ~40 minutes (`~4s` per image) before.
 
 Live progress is written to `results/<run-id>/results.csv` as it goes — safe to Ctrl+C and inspect.
 

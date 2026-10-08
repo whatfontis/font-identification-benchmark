@@ -1,0 +1,22 @@
+{
+    "run_id": "171bc8af",
+    "date_utc": "2026-10-08T16:24:28+00:00",
+    "endpoint": "https:\/\/www.whatfontis.com\/api2\/",
+    "api_version": "api2",
+    "aimodel": null,
+    "mode": "fully_automated",
+    "folder": "imagenospace",
+    "test_set_source": "https:\/\/github.com\/whatfontis\/Font-Finder",
+    "matcher": "scripts\/match_helpers.php",
+    "repo_git_ref": "6568475df998a90f9b451c48524ac7a29aa18f58",
+    "limit": 20,
+    "depths": [
+        1,
+        5,
+        10,
+        20
+    ],
+    "timeout_s": 120,
+    "total_images": 624,
+    "finished_utc": "2026-10-08T18:31:50+00:00"
+}

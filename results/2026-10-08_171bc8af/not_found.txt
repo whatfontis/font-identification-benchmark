@@ -1,0 +1,11 @@
+# Images where the expected font was not in the API's top 20 (run 171bc8af)
+# file|expected|what the API returned first
+img_087.jpg|BlincType Letterpress Fontpak|Gomorrah
+img_098.jpg|Break|Kompot Sans Outline
+img_134.jpg|Christmas|Baby Garland Regular
+img_182.jpg|Docallisme On Street|Hallowen Font
+img_357.jpg|Love|Love2
+img_447.jpg|Panic|Kiss Melody Extrude
+img_566.jpg|The Beach|View
+img_568.jpg|The Christmas|Hello Beautiful
+img_573.jpg|Times|Moskva Pro Regular
