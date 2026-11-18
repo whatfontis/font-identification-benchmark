@@ -1,0 +1,5 @@
+# Images whose font was not in the API's top 20 (2026-11-17_35deb47a)
+# file|expected|what the API returned first
+img_087.jpg|BlincType Letterpress Fontpak|Gomorrah
+img_357.jpg|Love|Love2
+img_421.jpg|New Romantics|Hebrew Yossef Std Tag

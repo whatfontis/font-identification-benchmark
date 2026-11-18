@@ -1,0 +1,37 @@
+{
+    "run_id": "8b470235",
+    "provider": "anthropic",
+    "model": "claude-fable-5-2",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 376,
+    "unparsed": 0,
+    "refusals": 0,
+    "stop_reasons": {
+        "end_turn": 624
+    },
+    "avg_ms": 4198,
+    "top": {
+        "top1": {
+            "hits": 85,
+            "of": 624,
+            "pct": 13.62
+        },
+        "top5": {
+            "hits": 169,
+            "of": 624,
+            "pct": 27.08
+        },
+        "top10": {
+            "hits": 202,
+            "of": 624,
+            "pct": 32.37
+        },
+        "top20": {
+            "hits": 248,
+            "of": 624,
+            "pct": 39.74
+        }
+    }
+}

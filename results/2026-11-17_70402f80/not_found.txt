@@ -1,0 +1,8 @@
+# Images whose font was not in the API's top 20 (2026-11-17_70402f80)
+# file|expected|what the API returned first
+img_087.jpg|BlincType Letterpress Fontpak|Gomorrah
+img_098.jpg|Break|Nexstar Roman D
+img_134.jpg|Christmas|Shading
+img_182.jpg|Docallisme On Street|Marvino
+img_357.jpg|Love|Love2
+img_421.jpg|New Romantics|Vtks Dreamer ttf (400)

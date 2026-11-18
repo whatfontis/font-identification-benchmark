@@ -1,0 +1,38 @@
+{
+    "run_id": "8a52c295",
+    "provider": "google",
+    "model": "gemini-4-carbon",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 417,
+    "unparsed": 10,
+    "refusals": 0,
+    "stop_reasons": {
+        "STOP": 614,
+        "MAX_TOKENS": 10
+    },
+    "avg_ms": 39064,
+    "top": {
+        "top1": {
+            "hits": 76,
+            "of": 624,
+            "pct": 12.18
+        },
+        "top5": {
+            "hits": 125,
+            "of": 624,
+            "pct": 20.03
+        },
+        "top10": {
+            "hits": 165,
+            "of": 624,
+            "pct": 26.44
+        },
+        "top20": {
+            "hits": 207,
+            "of": 624,
+            "pct": 33.17
+        }
+    }
+}

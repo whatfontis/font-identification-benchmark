@@ -1,0 +1,625 @@
+file,expected,rank,ms,top1,top5,top10,top20
+img_001.jpg,"A Another Tag",1,5186,1,1,1,1
+img_002.jpg,ABeeZee,1,4333,1,1,1,1
+img_003.jpg,Abel,1,2961,1,1,1,1
+img_004.jpg,Abramo,1,3650,1,1,1,1
+img_005.jpg,"Abril Fatface",1,4731,1,1,1,1
+img_006.jpg,Acme,1,4007,1,1,1,1
+img_007.jpg,Acumin,1,4364,1,1,1,1
+img_008.jpg,Adelia,1,4928,1,1,1,1
+img_009.jpg,Advent,1,4161,1,1,1,1
+img_010.jpg,Agatho,1,4807,1,1,1,1
+img_011.jpg,Agora,1,4830,1,1,1,1
+img_012.jpg,"Akira Expanded",1,3787,1,1,1,1
+img_013.jpg,Akzidenz-Grotesk,1,5364,1,1,1,1
+img_014.jpg,"Albertus Nova",1,4732,1,1,1,1
+img_015.jpg,Albra,1,4369,1,1,1,1
+img_016.jpg,Alegreya,1,4140,1,1,1,1
+img_017.jpg,"Alegreya Sans",1,4464,1,1,1,1
+img_018.jpg,"Alfa Slab",1,3436,1,1,1,1
+img_019.jpg,Alice,1,4599,1,1,1,1
+img_020.jpg,Almarai,1,4175,1,1,1,1
+img_021.jpg,Amarillo,1,4294,1,1,1,1
+img_022.jpg,Amasis,2,4851,0,1,1,1
+img_023.jpg,"Amatic SC",1,4438,1,1,1,1
+img_024.jpg,"American Captain",1,5460,1,1,1,1
+img_025.jpg,Amiri,1,3955,1,1,1,1
+img_026.jpg,"Amsterdam Signature",1,6923,1,1,1,1
+img_027.jpg,Ananda,1,5269,1,1,1,1
+img_028.jpg,Ancient,1,4994,1,1,1,1
+img_029.jpg,Ano,1,4622,1,1,1,1
+img_030.jpg,"Another Danger",1,4231,1,1,1,1
+img_031.jpg,Anton,1,4999,1,1,1,1
+img_032.jpg,Archer,1,5249,1,1,1,1
+img_033.jpg,"Architects Daughter",1,4195,1,1,1,1
+img_034.jpg,Archivo,1,4113,1,1,1,1
+img_035.jpg,"Archivo Black",1,4428,1,1,1,1
+img_036.jpg,"Archivo Narrow",1,4130,1,1,1,1
+img_037.jpg,Arimo,1,3889,1,1,1,1
+img_038.jpg,Arsenal,1,4441,1,1,1,1
+img_039.jpg,Arvo,1,3818,1,1,1,1
+img_040.jpg,Asap,1,4551,1,1,1,1
+img_041.jpg,"Asap Condensed",1,3962,1,1,1,1
+img_042.jpg,Assistant,3,4288,0,1,1,1
+img_043.jpg,Astralaga,1,5241,1,1,1,1
+img_044.jpg,"Atomic Marker",1,5549,1,1,1,1
+img_045.jpg,Aurora,1,5572,1,1,1,1
+img_046.jpg,"Austral Slab",1,4281,1,1,1,1
+img_047.jpg,Authenia,1,4904,1,1,1,1
+img_048.jpg,Autography,1,4475,1,1,1,1
+img_049.jpg,Avenir,1,4660,1,1,1,1
+img_050.jpg,"Avenir Next",1,4513,1,1,1,1
+img_051.jpg,Azonix,1,3159,1,1,1,1
+img_052.jpg,"Baby Doll",1,4886,1,1,1,1
+img_053.jpg,"Badaboom BB",1,4916,1,1,1,1
+img_054.jpg,Bailenson,1,4401,1,1,1,1
+img_055.jpg,Balerga,1,4594,1,1,1,1
+img_056.jpg,"Bandito Script",1,4766,1,1,1,1
+img_057.jpg,Barlington,1,6252,1,1,1,1
+img_058.jpg,Barlow,1,4800,1,1,1,1
+img_059.jpg,"Barlow Condensed",1,4401,1,1,1,1
+img_060.jpg,"Barlow Semi Condensed",1,4588,1,1,1,1
+img_061.jpg,"Batman Forever",1,4424,1,1,1,1
+img_062.jpg,"Beautiful Barbies",1,4662,1,1,1,1
+img_063.jpg,"Beautiful Christmas",1,5030,1,1,1,1
+img_064.jpg,Bebas,1,4852,1,1,1,1
+img_065.jpg,"Bebas Neue",1,4829,1,1,1,1
+img_066.jpg,"Bembo MT",1,4181,1,1,1,1
+img_067.jpg,"Berthold Corporate E",1,4840,1,1,1,1
+img_068.jpg,"Better Time",1,3986,1,1,1,1
+img_069.jpg,"Better Times",1,5523,1,1,1,1
+img_070.jpg,"Be Vietnam",1,4574,1,1,1,1
+img_071.jpg,Beyonders,1,4807,1,1,1,1
+img_072.jpg,Biennale,1,5029,1,1,1,1
+img_073.jpg,"Big Noodle Titling",1,4927,1,1,1,1
+img_074.jpg,"Billion Dreams",1,5007,1,1,1,1
+img_075.jpg,"Billy Ohio",1,5186,1,1,1,1
+img_076.jpg,Biospace,1,4613,1,1,1,1
+img_077.jpg,"Birds of Paradise",1,4899,1,1,1,1
+img_078.jpg,"Biro Script Plus",1,4513,1,1,1,1
+img_079.jpg,Bisney,1,5369,1,1,1,1
+img_080.jpg,Bitter,1,4194,1,1,1,1
+img_081.jpg,Blacker,1,4881,1,1,1,1
+img_082.jpg,"Black Hulk",1,5612,1,1,1,1
+img_083.jpg,"Black Ops",1,2883,1,1,1,1
+img_084.jpg,"Blackout Sunrise",1,5187,1,1,1,1
+img_085.jpg,Blacksword,1,4879,1,1,1,1
+img_086.jpg,"Blastimo Sans",1,5305,1,1,1,1
+img_087.jpg,"BlincType Letterpress Fontpak","not found",4768,0,0,0,0
+img_088.jpg,Blosta,1,6737,1,1,1,1
+img_089.jpg,Bluesky,1,4562,1,1,1,1
+img_090.jpg,Bodoni,1,4385,1,1,1,1
+img_091.jpg,"Bodoni Egyptian",1,3918,1,1,1,1
+img_092.jpg,"Bodoni Moda",1,4520,1,1,1,1
+img_093.jpg,Bogart,1,4826,1,1,1,1
+img_094.jpg,"Bon Vivant Family",1,4437,1,1,1,1
+img_095.jpg,"Bookman Old Style",1,4813,1,1,1,1
+img_096.jpg,Boton,1,4961,1,1,1,1
+img_097.jpg,"Brandon Grotesque",1,3877,1,1,1,1
+img_098.jpg,Break,1,5826,1,1,1,1
+img_099.jpg,Breathing,1,5319,1,1,1,1
+img_100.jpg,"Bree Serif",1,4584,1,1,1,1
+img_101.jpg,"Brittany Signature",1,5272,1,1,1,1
+img_102.jpg,"Bronzion Deco",1,5445,1,1,1,1
+img_103.jpg,"Brush Up",1,5069,1,1,1,1
+img_104.jpg,BubbleGum,1,5130,1,1,1,1
+img_105.jpg,"Built Titling",1,5001,1,1,1,1
+img_106.jpg,Bungee,1,3168,1,1,1,1
+img_107.jpg,Butterscotch,1,6642,1,1,1,1
+img_108.jpg,Cabin,1,4271,1,1,1,1
+img_109.jpg,Cairo,2,3898,0,1,1,1
+img_110.jpg,Cakeroll,1,5250,1,1,1,1
+img_111.jpg,Calligraphy,2,4034,0,1,1,1
+img_112.jpg,"Campione Neue",1,4301,1,1,1,1
+img_113.jpg,Campton,1,3542,1,1,1,1
+img_114.jpg,Candy,1,5130,1,1,1,1
+img_115.jpg,"Candy Cane",1,5440,1,1,1,1
+img_116.jpg,Cantarell,1,4172,1,1,1,1
+img_117.jpg,Cardo,1,4248,1,1,1,1
+img_118.jpg,Carter,1,4342,1,1,1,1
+img_119.jpg,Catamaran,1,4002,1,1,1,1
+img_120.jpg,Caveat,1,4942,1,1,1,1
+img_121.jpg,"Caviar Dreams",1,5642,1,1,1,1
+img_122.jpg,"Century Gothic",1,5113,1,1,1,1
+img_123.jpg,"Chakra Petch",1,5584,1,1,1,1
+img_124.jpg,Chaloops,1,4460,1,1,1,1
+img_125.jpg,Changa,1,4559,1,1,1,1
+img_126.jpg,Chaparral,1,5292,1,1,1,1
+img_127.jpg,Chatime,2,4677,0,1,1,1
+img_128.jpg,Cheri,1,4727,1,1,1,1
+img_129.jpg,Cherolina,1,4932,1,1,1,1
+img_130.jpg,"Chicken Pie",1,4830,1,1,1,1
+img_131.jpg,Chiffon,1,3789,1,1,1,1
+img_132.jpg,Chivo,1,3779,1,1,1,1
+img_133.jpg,Chomixi,1,4841,1,1,1,1
+img_134.jpg,Christmas,15,4035,0,0,0,1
+img_135.jpg,"Christmas and Santona",1,4832,1,1,1,1
+img_136.jpg,"Christmas Balloon",1,5187,1,1,1,1
+img_137.jpg,"Christmas Bell",1,3359,1,1,1,1
+img_138.jpg,"Christmas Carol",1,4266,1,1,1,1
+img_139.jpg,"Christmas Sparkle",3,5174,0,1,1,1
+img_140.jpg,"Christmas Squad",1,4948,1,1,1,1
+img_141.jpg,"Christmas Tree Lights",1,4758,1,1,1,1
+img_142.jpg,"Christmas Wish Calligraphy",1,4606,1,1,1,1
+img_143.jpg,"Christmas Wish Monoline",1,4516,1,1,1,1
+img_144.jpg,"Chronicle Display",1,4967,1,1,1,1
+img_145.jpg,"Chronicle Text",1,4837,1,1,1,1
+img_146.jpg,Cinzel,2,3970,0,1,1,1
+img_147.jpg,Clarendon,1,4136,1,1,1,1
+img_148.jpg,"Classy Vogue",1,4816,1,1,1,1
+img_149.jpg,"Cloister Black",2,4626,0,1,1,1
+img_150.jpg,Cocogoose,2,4666,0,1,1,1
+img_151.jpg,Comfortaa,1,4703,1,1,1,1
+img_152.jpg,Commissioner,1,4645,1,1,1,1
+img_153.jpg,Concert,1,3924,1,1,1,1
+img_154.jpg,"Conte Script Plus",1,5331,1,1,1,1
+img_155.jpg,Cookie,1,4049,1,1,1,1
+img_156.jpg,Coolvetica,1,4728,1,1,1,1
+img_157.jpg,"Cooper BT",1,6365,1,1,1,1
+img_158.jpg,Cormorant,1,4413,1,1,1,1
+img_159.jpg,"Cormorant Garamond",1,4181,1,1,1,1
+img_160.jpg,Courgette,1,4580,1,1,1,1
+img_161.jpg,Couture,2,4567,0,1,1,1
+img_162.jpg,"Cream Cake",1,4903,1,1,1,1
+img_163.jpg,"Crete Round",1,4527,1,1,1,1
+img_164.jpg,Crima,1,5081,1,1,1,1
+img_165.jpg,Crimson,1,4171,1,1,1,1
+img_166.jpg,"Crimson Text",1,4047,1,1,1,1
+img_167.jpg,Cuprum,1,4017,1,1,1,1
+img_168.jpg,"Daily Note",1,4772,1,1,1,1
+img_169.jpg,"Dancing Script",1,3453,1,1,1,1
+img_170.jpg,"Danger Agenda",1,5675,1,1,1,1
+img_171.jpg,"Darwin Smith",1,5773,1,1,1,1
+img_172.jpg,Daykids,1,5149,1,1,1,1
+img_173.jpg,"Debora Celina Script",1,5158,1,1,1,1
+img_174.jpg,Designer,1,4490,1,1,1,1
+img_175.jpg,"Desirable Calligraphy",1,6035,1,1,1,1
+img_176.jpg,"Des Montilles",1,5982,1,1,1,1
+img_177.jpg,"Didact Gothic",1,4371,1,1,1,1
+img_178.jpg,"DIN Next",1,4580,1,1,1,1
+img_179.jpg,"DIN Next Slab",1,4666,1,1,1,1
+img_180.jpg,"DM Sans",1,4548,1,1,1,1
+img_181.jpg,"DM Serif Display",2,6275,0,1,1,1
+img_182.jpg,"Docallisme On Street",1,5433,1,1,1,1
+img_183.jpg,"Doctor Glitch",1,5557,1,1,1,1
+img_184.jpg,Domine,1,4484,1,1,1,1
+img_185.jpg,Dosis,1,4440,1,1,1,1
+img_186.jpg,"Dream Girl",1,4652,1,1,1,1
+img_187.jpg,"Dreaming Outloud",1,5222,1,1,1,1
+img_188.jpg,"DT Augustina Slab",1,5857,1,1,1,1
+img_189.jpg,"EB Garamond",1,4716,1,1,1,1
+img_190.jpg,"Editors Note",1,5412,1,1,1,1
+img_191.jpg,Egyptienne,1,3554,1,1,1,1
+img_192.jpg,"El Messiri",3,4022,0,1,1,1
+img_193.jpg,Emperatriz,1,5043,1,1,1,1
+img_194.jpg,"Emy Slab",1,4320,1,1,1,1
+img_195.jpg,"Encode Sans",1,4215,1,1,1,1
+img_196.jpg,Eurostile,1,4547,1,1,1,1
+img_197.jpg,Exo,1,4288,1,1,1,1
+img_198.jpg,Eyesome,1,6380,1,1,1,1
+img_199.jpg,Fanlste,1,5033,1,1,1,1
+img_200.jpg,"Feeling Passionate",1,5846,1,1,1,1
+img_201.jpg,"FF DIN",1,3677,1,1,1,1
+img_202.jpg,"FF Elementa",1,5250,1,1,1,1
+img_203.jpg,"FF Ernestine",1,3672,1,1,1,1
+img_204.jpg,"FF Eureka",1,4805,1,1,1,1
+img_205.jpg,"FF Fago",1,3839,1,1,1,1
+img_206.jpg,"FF Franziska",1,3583,1,1,1,1
+img_207.jpg,"FF Hertz",1,4831,1,1,1,1
+img_208.jpg,"f Finish",1,5379,1,1,1,1
+img_209.jpg,"FF Kievit",1,3964,1,1,1,1
+img_210.jpg,"FF Market",1,5756,1,1,1,1
+img_211.jpg,"FF Meta",1,4557,1,1,1,1
+img_212.jpg,"FF Meta Serif",1,4906,1,1,1,1
+img_213.jpg,"FF Providence Sans",1,4864,1,1,1,1
+img_214.jpg,"FF Tisa",1,4874,1,1,1,1
+img_215.jpg,Figtree,2,4580,0,1,1,1
+img_216.jpg,Fineday,1,4912,1,1,1,1
+img_217.jpg,"Fiolex Girls",1,5091,1,1,1,1
+img_218.jpg,"Fira Sans",1,3785,1,1,1,1
+img_219.jpg,Fjalla,1,4208,1,1,1,1
+img_220.jpg,"Food Truck",1,3123,1,1,1,1
+img_221.jpg,"Foundry Form Serif",1,5160,1,1,1,1
+img_222.jpg,Francois,1,4253,1,1,1,1
+img_223.jpg,"Franklin Gothic",1,4142,1,1,1,1
+img_224.jpg,"Frank Ruhl Libre",1,3852,1,1,1,1
+img_225.jpg,Freeland,1,6815,1,1,1,1
+img_226.jpg,"Freight Text",1,4760,1,1,1,1
+img_227.jpg,Freshman,3,4544,0,1,1,1
+img_228.jpg,"Friz Quadrata",1,4570,1,1,1,1
+img_229.jpg,Frutiger,1,5619,1,1,1,1
+img_230.jpg,"FS Kim",1,4947,1,1,1,1
+img_231.jpg,"FS Me",1,4974,1,1,1,1
+img_232.jpg,"FS Ostro",1,4878,1,1,1,1
+img_233.jpg,"FS Rufus",1,4475,1,1,1,1
+img_234.jpg,Futura,1,4539,1,1,1,1
+img_235.jpg,"Futura Now",1,5347,1,1,1,1
+img_236.jpg,"Futura PT",1,4260,1,1,1,1
+img_237.jpg,"Gagisra Rigade",1,5533,1,1,1,1
+img_238.jpg,"Galano Grotesque",1,5464,1,1,1,1
+img_239.jpg,"Gang of Three",1,4692,1,1,1,1
+img_240.jpg,Garnet,1,3714,1,1,1,1
+img_241.jpg,Gazpacho,1,4777,1,1,1,1
+img_242.jpg,Gelica,1,5115,1,1,1,1
+img_243.jpg,Genty,1,4960,1,1,1,1
+img_244.jpg,"Geometric Slabserif 703",2,4843,0,1,1,1
+img_245.jpg,"Ghastly Panic",1,4615,1,1,1,1
+img_246.jpg,"Ghibo Talk",1,5303,1,1,1,1
+img_247.jpg,"Gill Sans",1,4452,1,1,1,1
+img_248.jpg,Gilroy,1,3993,1,1,1,1
+img_249.jpg,"Gloria Hallelujah",1,4750,1,1,1,1
+img_250.jpg,Glypha,2,4610,0,1,1,1
+img_251.jpg,Gobold,1,4495,1,1,1,1
+img_252.jpg,Golden,1,5370,1,1,1,1
+img_253.jpg,"Golden Hopes",1,4966,1,1,1,1
+img_254.jpg,Goldplay,1,5029,1,1,1,1
+img_255.jpg,Gotham,1,4746,1,1,1,1
+img_256.jpg,"Gothic A1",1,4620,1,1,1,1
+img_257.jpg,"Gothicus Vulgaris",2,4807,0,1,1,1
+img_258.jpg,Granesta,1,5362,1,1,1,1
+img_259.jpg,"Great Vibes",1,4357,1,1,1,1
+img_260.jpg,"Greycliff CF",1,4352,1,1,1,1
+img_261.jpg,Grinched,1,4629,1,1,1,1
+img_262.jpg,Gruppo,1,4453,1,1,1,1
+img_263.jpg,"Guthen Bloots",1,5419,1,1,1,1
+img_264.jpg,Handelson,1,5699,1,1,1,1
+img_265.jpg,Handwind,1,5024,1,1,1,1
+img_266.jpg,Hanley,1,5044,1,1,1,1
+img_267.jpg,Harman,1,4828,1,1,1,1
+img_268.jpg,"Harmonia Sans",1,4800,1,1,1,1
+img_269.jpg,"Harry P",1,4369,1,1,1,1
+img_270.jpg,"Heading Now",1,4564,1,1,1,1
+img_271.jpg,Heartless,1,4292,1,1,1,1
+img_272.jpg,"Heavenly Christmas",1,4586,1,1,1,1
+img_273.jpg,Heavitas,3,4858,0,1,1,1
+img_274.jpg,Heebo,9,3810,0,0,1,1
+img_275.jpg,Hello,1,4274,1,1,1,1
+img_276.jpg,"Hello Honey",1,4332,1,1,1,1
+img_277.jpg,"Hello Paris",1,3115,1,1,1,1
+img_278.jpg,"Hello Valentica",1,5321,1,1,1,1
+img_279.jpg,Helvetica,1,4100,1,1,1,1
+img_280.jpg,"Helvetica Now",1,5743,1,1,1,1
+img_281.jpg,"Helvetica Now Variable",1,5242,1,1,1,1
+img_282.jpg,"Hey Comic",1,5272,1,1,1,1
+img_283.jpg,Hind,2,4141,0,1,1,1
+img_284.jpg,"Hind Madurai",2,3288,0,1,1,1
+img_285.jpg,"Hind Siliguri",2,4683,0,1,1,1
+img_286.jpg,Hisbullah,1,5712,1,1,1,1
+img_287.jpg,"Home Christmas",1,4863,1,1,1,1
+img_288.jpg,"Home Kitchen",1,5129,1,1,1,1
+img_289.jpg,Homepage,1,5285,1,1,1,1
+img_290.jpg,"Honey Black",1,4898,1,1,1,1
+img_291.jpg,Honeypirls,1,4916,1,1,1,1
+img_292.jpg,"Hug Me Tight",1,4901,1,1,1,1
+img_293.jpg,"IBM Plex Mono",1,4262,1,1,1,1
+img_294.jpg,Inconsolata,1,4287,1,1,1,1
+img_295.jpg,"Indie Flower",1,4092,1,1,1,1
+img_296.jpg,"Indoor Design",1,4788,1,1,1,1
+img_297.jpg,Inter,1,4195,1,1,1,1
+img_298.jpg,"Inter Tight",1,4100,1,1,1,1
+img_299.jpg,"Intrepid Spear",1,4821,1,1,1,1
+img_300.jpg,"Intro Rust",1,4331,1,1,1,1
+img_301.jpg,"Ionic No 5",1,4181,1,1,1,1
+img_302.jpg,Isidora,1,4298,1,1,1,1
+img_303.jpg,Italia,1,4641,1,1,1,1
+img_304.jpg,"ITC Avant Garde Gothic",2,4443,0,1,1,1
+img_305.jpg,"ITC Benguiat",1,4230,1,1,1,1
+img_306.jpg,"ITC Berkeley Old Style",1,4535,1,1,1,1
+img_307.jpg,"ITC Bradley Hand",1,4730,1,1,1,1
+img_308.jpg,"ITC Cheltenham",1,4318,1,1,1,1
+img_309.jpg,"ITC Clearface",1,4813,1,1,1,1
+img_310.jpg,"ITC Edwardian Script",1,4696,1,1,1,1
+img_311.jpg,"ITC Garamond",1,4335,1,1,1,1
+img_312.jpg,"ITC Lubalin Graph",1,4152,1,1,1,1
+img_313.jpg,"ITC New Baskerville",1,4723,1,1,1,1
+img_314.jpg,"ITC Officina Serif",1,4285,1,1,1,1
+img_315.jpg,"ITC Serif Gothic",1,4623,1,1,1,1
+img_316.jpg,"ITC Souvenir",1,4595,1,1,1,1
+img_317.jpg,"ITC Stone Serif",1,4540,1,1,1,1
+img_318.jpg,"JMH Typewriter",1,4471,1,1,1,1
+img_319.jpg,Joanna,1,4218,1,1,1,1
+img_320.jpg,"Joanna Nova",1,3795,1,1,1,1
+img_321.jpg,"Josefin Sans",1,3719,1,1,1,1
+img_322.jpg,"Josefin Slab",1,3863,1,1,1,1
+img_323.jpg,"Joseph Sophia",1,4778,1,1,1,1
+img_324.jpg,Jost,1,4304,1,1,1,1
+img_325.jpg,Juana,1,3463,1,1,1,1
+img_326.jpg,Kalam,1,3965,1,1,1,1
+img_327.jpg,Kanit,1,4566,1,1,1,1
+img_328.jpg,Karla,1,4411,1,1,1,1
+img_329.jpg,"Kastella Script",1,4832,1,1,1,1
+img_330.jpg,"Kaushan Script",1,4420,1,1,1,1
+img_331.jpg,"Keep on Truckin",1,4941,1,1,1,1
+img_332.jpg,"KG Red Hands",1,4539,1,1,1,1
+img_333.jpg,Khand,1,3926,1,1,1,1
+img_334.jpg,"Kids Draw",1,5049,1,1,1,1
+img_335.jpg,"Kids Zona",1,4889,1,1,1,1
+img_336.jpg,Knockout,1,4267,1,1,1,1
+img_337.jpg,Kollera,1,4667,1,1,1,1
+img_338.jpg,"Komika Axis",2,4971,0,1,1,1
+img_339.jpg,"Kuenstler Script",1,5131,1,1,1,1
+img_340.jpg,"La Luxes",1,4321,1,1,1,1
+img_341.jpg,Larken,1,4264,1,1,1,1
+img_342.jpg,Lato,1,3802,1,1,1,1
+img_343.jpg,"Lemon Milk",1,5257,1,1,1,1
+img_344.jpg,"Lemon Yellow Sun",1,4761,1,1,1,1
+img_345.jpg,Letteria,1,4930,1,1,1,1
+img_346.jpg,Lexend,1,4366,1,1,1,1
+img_347.jpg,"Lexend Deca",1,4797,1,1,1,1
+img_348.jpg,"Libre Baskerville",1,4314,1,1,1,1
+img_349.jpg,"Libre Franklin",1,4026,1,1,1,1
+img_350.jpg,Lilita,1,4492,1,1,1,1
+img_351.jpg,Limited,1,5438,1,1,1,1
+img_352.jpg,"Linotype Didot",1,4467,1,1,1,1
+img_353.jpg,Lobster,1,4504,1,1,1,1
+img_354.jpg,"Lobster Two",1,4228,1,1,1,1
+img_355.jpg,Lora,1,4452,1,1,1,1
+img_356.jpg,"Louis George",1,4830,1,1,1,1
+img_357.jpg,Love,"not found",5362,0,0,0,0
+img_358.jpg,Lovelace,1,4775,1,1,1,1
+img_359.jpg,"Lovely May",1,5887,1,1,1,1
+img_360.jpg,"Ltt Recoleta",1,5316,1,1,1,1
+img_361.jpg,"Luckiest Guy",1,4307,1,1,1,1
+img_362.jpg,Macklin,1,4079,1,1,1,1
+img_363.jpg,"MADE Tommy",1,4879,1,1,1,1
+img_364.jpg,Madina,2,4091,0,1,1,1
+img_365.jpg,Mafra,1,4432,1,1,1,1
+img_366.jpg,"Maison Neue",1,5531,1,1,1,1
+img_367.jpg,Mangrove,1,5404,1,1,1,1
+img_368.jpg,Manrope,1,4517,1,1,1,1
+img_369.jpg,Marcellus,1,4067,1,1,1,1
+img_370.jpg,Marola,1,5700,1,1,1,1
+img_371.jpg,Martel,1,4089,1,1,1,1
+img_372.jpg,Marysville,1,6100,1,1,1,1
+img_373.jpg,"Masa Groovy",1,5085,1,1,1,1
+img_374.jpg,Mate,1,4178,1,1,1,1
+img_375.jpg,"Mate SC",2,4117,0,1,1,1
+img_376.jpg,"Mathovia Script",1,4896,1,1,1,1
+img_377.jpg,Maven,1,4272,1,1,1,1
+img_378.jpg,Memphis,1,4223,1,1,1,1
+img_379.jpg,"Mercury Text",1,4651,1,1,1,1
+img_380.jpg,Merriweather,1,3734,1,1,1,1
+img_381.jpg,"Merriweather Sans",1,4344,1,1,1,1
+img_382.jpg,"Merry Christmas",1,3922,1,1,1,1
+img_383.jpg,Michelle,1,5136,1,1,1,1
+img_384.jpg,Mikaway,1,4221,1,1,1,1
+img_385.jpg,"Milk Mango",1,4842,1,1,1,1
+img_386.jpg,"Miller Text",1,3458,1,1,1,1
+img_387.jpg,"Miraculous Christmas",1,4627,1,1,1,1
+img_388.jpg,Mirador,1,4512,1,1,1,1
+img_389.jpg,"M Ling Wai F HK",1,3531,1,1,1,1
+img_390.jpg,"M Ling Wai TC",1,3762,1,1,1,1
+img_391.jpg,Modernline,1,5626,1,1,1,1
+img_392.jpg,"Modern Love",1,4716,1,1,1,1
+img_393.jpg,"Moline Quotes Sans",1,4366,1,1,1,1
+img_394.jpg,"Monotype Lydian",1,4781,1,1,1,1
+img_395.jpg,Monroe,1,4659,1,1,1,1
+img_396.jpg,Mont,1,5043,1,1,1,1
+img_397.jpg,Montserrat,1,4047,1,1,1,1
+img_398.jpg,"Montserrat Alternates",1,4328,1,1,1,1
+img_399.jpg,"Moon Time",1,4887,1,1,1,1
+img_400.jpg,"Mosenta Script",1,4921,1,1,1,1
+img_401.jpg,"Motley Forces",1,5241,1,1,1,1
+img_402.jpg,"Mr Dodo",1,4858,1,1,1,1
+img_403.jpg,"Mrs Eaves",1,4544,1,1,1,1
+img_404.jpg,"MSung HK",1,4773,1,1,1,1
+img_405.jpg,Mukta,1,4015,1,1,1,1
+img_406.jpg,Multiple,1,4666,1,1,1,1
+img_407.jpg,"Mundo Serif",1,5080,1,1,1,1
+img_408.jpg,"Museo Slab",1,4875,1,1,1,1
+img_409.jpg,Muthiara,1,5055,1,1,1,1
+img_410.jpg,"Nanum Gothic",1,4221,1,1,1,1
+img_411.jpg,"Nanum Myeongjo",1,4080,1,1,1,1
+img_412.jpg,"National Forest",1,6221,1,1,1,1
+img_413.jpg,"Neue Frutiger",2,4887,0,1,1,1
+img_414.jpg,"Neue Haas Grotesk Display",1,5272,1,1,1,1
+img_415.jpg,"Neue Haas Grotesk Text",1,4650,1,1,1,1
+img_416.jpg,"Neue Haas Unica",1,4025,1,1,1,1
+img_417.jpg,"Neue Helvetica",1,4666,1,1,1,1
+img_418.jpg,"Neue Plak",1,5425,1,1,1,1
+img_419.jpg,Neuton,1,4352,1,1,1,1
+img_420.jpg,"Neuzeit Grotesk",2,5225,0,1,1,1
+img_421.jpg,"New Romantics","not found",4817,0,0,0,0
+img_422.jpg,Nexa,1,5026,1,1,1,1
+img_423.jpg,"Nexa Rust",1,3928,1,1,1,1
+img_424.jpg,"Nexa Slab",1,3571,1,1,1,1
+img_425.jpg,"Nimbus Mono L",1,4165,1,1,1,1
+img_426.jpg,Nimrod,1,4710,1,1,1,1
+img_427.jpg,Northwell,1,5059,1,1,1,1
+img_428.jpg,"Noticia Text",1,4263,1,1,1,1
+img_429.jpg,"Noto Sans",8,3727,0,0,1,1
+img_430.jpg,"Noto Serif",2,3896,0,1,1,1
+img_431.jpg,Nunito,1,4389,1,1,1,1
+img_432.jpg,"Nunito Sans",1,4594,1,1,1,1
+img_433.jpg,"Old London",1,4538,1,1,1,1
+img_434.jpg,"Old Standard TT",1,4223,1,1,1,1
+img_435.jpg,"Oleo Script",1,4275,1,1,1,1
+img_436.jpg,"Open Sans",1,4547,1,1,1,1
+img_437.jpg,Operetta,1,3651,1,1,1,1
+img_438.jpg,Orbitron,1,2939,1,1,1,1
+img_439.jpg,Oswald,1,4118,1,1,1,1
+img_440.jpg,Outfit,2,4388,0,1,1,1
+img_441.jpg,Overpass,1,4073,1,1,1,1
+img_442.jpg,Overthink,1,5129,1,1,1,1
+img_443.jpg,Oxygen,1,4335,1,1,1,1
+img_444.jpg,"P22 Mackinac",1,4652,1,1,1,1
+img_445.jpg,Pacifico,1,4625,1,1,1,1
+img_446.jpg,Palatino,6,4087,0,0,1,1
+img_447.jpg,Panic,1,5367,1,1,1,1
+img_448.jpg,Passion,1,4173,1,1,1,1
+img_449.jpg,"Pathway Gothic",1,3966,1,1,1,1
+img_450.jpg,Patron,1,4855,1,1,1,1
+img_451.jpg,Patua,1,4230,1,1,1,1
+img_452.jpg,Paytone,1,4100,1,1,1,1
+img_453.jpg,"Permanent Marker",1,4675,1,1,1,1
+img_454.jpg,Petrona,1,4143,1,1,1,1
+img_455.jpg,"PF DIN Text",1,4763,1,1,1,1
+img_456.jpg,Philosopher,2,4025,0,1,1,1
+img_457.jpg,"Photograph Signature",1,4052,1,1,1,1
+img_458.jpg,"Planet Kosmos",1,5491,1,1,1,1
+img_459.jpg,Plantin,1,3336,1,1,1,1
+img_460.jpg,Play,1,3978,1,1,1,1
+img_461.jpg,"Playfair Display",1,3882,1,1,1,1
+img_462.jpg,"Plus Jakarta Sans",1,4368,1,1,1,1
+img_463.jpg,"PMN Caecilia",1,4630,1,1,1,1
+img_464.jpg,Poppins,1,4497,1,1,1,1
+img_465.jpg,Porky,1,4724,1,1,1,1
+img_466.jpg,Prata,2,4085,0,1,1,1
+img_467.jpg,Present,1,4872,1,1,1,1
+img_468.jpg,"Press Start 2P",1,2365,1,1,1,1
+img_469.jpg,Pricedown,1,4893,1,1,1,1
+img_470.jpg,"Productive Day",1,5451,1,1,1,1
+img_471.jpg,Prompt,1,4359,1,1,1,1
+img_472.jpg,"PT Mono",1,4188,1,1,1,1
+img_473.jpg,"PT Sans",1,3972,1,1,1,1
+img_474.jpg,"PT Serif",1,4076,1,1,1,1
+img_475.jpg,"PW Joyeux Noel",1,5344,1,1,1,1
+img_476.jpg,Qakergu,1,4809,1,1,1,1
+img_477.jpg,Quadon,1,4618,1,1,1,1
+img_478.jpg,Quarto,1,4784,1,1,1,1
+img_479.jpg,Quattrocento,1,4324,1,1,1,1
+img_480.jpg,"Quattrocento Sans",1,4182,1,1,1,1
+img_481.jpg,Questrial,1,4711,1,1,1,1
+img_482.jpg,Quickpen,1,4252,1,1,1,1
+img_483.jpg,Quicksand,1,3740,1,1,1,1
+img_484.jpg,Rajdhani,1,3177,1,1,1,1
+img_485.jpg,Raleway,1,4363,1,1,1,1
+img_486.jpg,Rameau,1,5338,1,1,1,1
+img_487.jpg,Readex,2,4245,0,1,1,1
+img_488.jpg,Recoleta,1,4836,1,1,1,1
+img_489.jpg,"Red Burger",1,5314,1,1,1,1
+img_490.jpg,"Red Hat Display",1,4212,1,1,1,1
+img_491.jpg,Relington,1,5165,1,1,1,1
+img_492.jpg,Requiem,1,4523,1,1,1,1
+img_493.jpg,Rethinker,1,4707,1,1,1,1
+img_494.jpg,"Retro Signature",1,5052,1,1,1,1
+img_495.jpg,Righteous,1,4539,1,1,1,1
+img_496.jpg,"Road Rage",1,4992,1,1,1,1
+img_497.jpg,Roboto,1,4791,1,1,1,1
+img_498.jpg,"Roboto Condensed",1,4021,1,1,1,1
+img_499.jpg,"Roboto Flex",1,4892,1,1,1,1
+img_500.jpg,"Roboto Mono",1,4306,1,1,1,1
+img_501.jpg,"Roboto Serif",1,4572,1,1,1,1
+img_502.jpg,"Roboto Slab",1,4048,1,1,1,1
+img_503.jpg,Rockline,1,5613,1,1,1,1
+img_504.jpg,Rockwell,1,4751,1,1,1,1
+img_505.jpg,Rokkitt,1,3984,1,1,1,1
+img_506.jpg,Rolate,1,4463,1,1,1,1
+img_507.jpg,Rosela,2,4594,0,1,1,1
+img_508.jpg,"Rotis Sans Serif",1,3616,1,1,1,1
+img_509.jpg,Rowdies,1,4484,1,1,1,1
+img_510.jpg,"Roxborough CF",1,4642,1,1,1,1
+img_511.jpg,Rubik,1,4210,1,1,1,1
+img_512.jpg,"Rumble Brave Vintage Fonts",1,5093,1,1,1,1
+img_513.jpg,Russo,1,4306,1,1,1,1
+img_514.jpg,"Rustic Market",1,4337,1,1,1,1
+img_515.jpg,Sabina,1,4624,1,1,1,1
+img_516.jpg,Sacramento,1,3838,1,1,1,1
+img_517.jpg,Saira,1,3982,1,1,1,1
+img_518.jpg,"Saira Condensed",1,4046,1,1,1,1
+img_519.jpg,Salma,1,4369,1,1,1,1
+img_520.jpg,"Sanchez Niu",1,4669,1,1,1,1
+img_521.jpg,Sarabun,1,4379,1,1,1,1
+img_522.jpg,Satisfy,1,4030,1,1,1,1
+img_523.jpg,"Sawarabi Gothic",1,4302,1,1,1,1
+img_524.jpg,"Sawarabi Mincho",1,4133,1,1,1,1
+img_525.jpg,Scala,1,4376,1,1,1,1
+img_526.jpg,Sentinel,1,4361,1,1,1,1
+img_527.jpg,Serifa,2,4495,0,1,1,1
+img_528.jpg,"Shadows Into Light",1,4435,1,1,1,1
+img_529.jpg,Signatra,1,4610,1,1,1,1
+img_530.jpg,Signatrue,1,4096,1,1,1,1
+img_531.jpg,Signika,1,3830,1,1,1,1
+img_532.jpg,"Signika Negative",1,4157,1,1,1,1
+img_533.jpg,"Silent Handwritting",1,5312,1,1,1,1
+img_534.jpg,"Silk Serif",1,3799,1,1,1,1
+img_535.jpg,"Simon Lovely",1,4425,1,1,1,1
+img_536.jpg,Slabo,1,3935,1,1,1,1
+img_537.jpg,"Snell Roundhand",1,4764,1,1,1,1
+img_538.jpg,Sofia,1,4714,1,1,1,1
+img_539.jpg,Soho,1,4289,1,1,1,1
+img_540.jpg,Sora,1,4534,1,1,1,1
+img_541.jpg,"Source Code",1,4212,1,1,1,1
+img_542.jpg,Southland,1,5099,1,1,1,1
+img_543.jpg,"Space Mono",1,4150,1,1,1,1
+img_544.jpg,Spectral,1,4074,1,1,1,1
+img_545.jpg,"Spritz And Delicious",1,4872,1,1,1,1
+img_546.jpg,"Square Slabserif 711",1,4891,1,1,1,1
+img_547.jpg,Starborn,1,4062,1,1,1,1
+img_548.jpg,"Star Jedi",1,5332,1,1,1,1
+img_549.jpg,Stigfier,3,3731,0,1,1,1
+img_550.jpg,"Stolen Times",1,4549,1,1,1,1
+img_551.jpg,Stormlight,1,3777,1,1,1,1
+img_552.jpg,Stretch,1,4737,1,1,1,1
+img_553.jpg,"Study Alone",1,4979,1,1,1,1
+img_554.jpg,"Sunday Best",1,4790,1,1,1,1
+img_555.jpg,"Super Funnel",1,5221,1,1,1,1
+img_556.jpg,"Super Mario 256",1,5789,1,1,1,1
+img_557.jpg,Suti,1,5101,1,1,1,1
+img_558.jpg,"Swiss 721",1,4698,1,1,1,1
+img_559.jpg,Taberna,1,4504,1,1,1,1
+img_560.jpg,Tajawal,1,3950,1,1,1,1
+img_561.jpg,"Taken by Vultures",2,3324,0,1,1,1
+img_562.jpg,"Tazugane Gothic",3,4621,0,1,1,1
+img_563.jpg,Technotyp,1,4562,1,1,1,1
+img_564.jpg,Teko,1,4184,1,1,1,1
+img_565.jpg,"The Augusta",1,5018,1,1,1,1
+img_566.jpg,"The Beach",1,4869,1,1,1,1
+img_567.jpg,"The Bold Font",1,5145,1,1,1,1
+img_568.jpg,"The Christmas",1,4762,1,1,1,1
+img_569.jpg,"The Grinch",1,5171,1,1,1,1
+img_570.jpg,"The Seasons",1,3592,1,1,1,1
+img_571.jpg,TheSerif,1,4698,1,1,1,1
+img_572.jpg,"The Smile",1,4627,1,1,1,1
+img_573.jpg,Times,10,4288,0,0,1,1
+img_574.jpg,"Times New Roman",1,4376,1,1,1,1
+img_575.jpg,Tinos,2,4028,0,1,1,1
+img_576.jpg,"Titillium Web",1,3618,1,1,1,1
+img_577.jpg,"Tonight Friend",1,4981,1,1,1,1
+img_578.jpg,"Trade Gothic",1,3513,1,1,1,1
+img_579.jpg,"Trade Gothic Next",1,4465,1,1,1,1
+img_580.jpg,Trend,1,4252,1,1,1,1
+img_581.jpg,"TS Block",1,3165,1,1,1,1
+img_582.jpg,"TT Norms",1,5131,1,1,1,1
+img_583.jpg,Tungsten,1,4841,1,1,1,1
+img_584.jpg,Ubuntu,1,3927,1,1,1,1
+img_585.jpg,"Ubuntu Condensed",1,4124,1,1,1,1
+img_586.jpg,"Ubuntu Mono",1,3997,1,1,1,1
+img_587.jpg,Unbounded,1,2620,1,1,1,1
+img_588.jpg,Undergrad,1,4511,1,1,1,1
+img_589.jpg,Univers,1,4626,1,1,1,1
+img_590.jpg,Unna,1,4254,1,1,1,1
+img_591.jpg,Urbanist,1,4813,1,1,1,1
+img_592.jpg,"Urban Jungle",1,7479,1,1,1,1
+img_593.jpg,"URW DIN",1,4695,1,1,1,1
+img_594.jpg,Utopia,1,4422,1,1,1,1
+img_595.jpg,Vacation,2,4511,0,1,1,1
+img_596.jpg,Vadelma,1,4502,1,1,1,1
+img_597.jpg,Valoon,1,5033,1,1,1,1
+img_598.jpg,"Vampire Wars",1,5540,1,1,1,1
+img_599.jpg,"Varela Round",1,4266,1,1,1,1
+img_600.jpg,Varsity,3,4619,0,1,1,1
+img_601.jpg,"Varsity Team",1,4470,1,1,1,1
+img_602.jpg,"VCR OSD Mono",1,3278,1,1,1,1
+img_603.jpg,Verlag,1,4128,1,1,1,1
+img_604.jpg,Vitesse,1,4751,1,1,1,1
+img_605.jpg,Vogue,1,4909,1,1,1,1
+img_606.jpg,Vollkorn,1,3900,1,1,1,1
+img_607.jpg,Walbaum,1,5231,1,1,1,1
+img_608.jpg,Walter,1,5421,1,1,1,1
+img_609.jpg,Waltograph,2,4910,0,1,1,1
+img_610.jpg,"Weather Sunday",1,4409,1,1,1,1
+img_611.jpg,Whitney,1,4897,1,1,1,1
+img_612.jpg,"Who asks Satan",1,5498,1,1,1,1
+img_613.jpg,WildWords,1,4786,1,1,1,1
+img_614.jpg,Winner,1,4944,1,1,1,1
+img_615.jpg,"Work Sans",1,4197,1,1,1,1
+img_616.jpg,"Yanone Kaffeesatz",1,4021,1,1,1,1
+img_617.jpg,Yantramanav,2,4167,0,1,1,1
+img_618.jpg,"Yellow Style",1,5124,1,1,1,1
+img_619.jpg,Yellowtail,1,4755,1,1,1,1
+img_620.jpg,"Zapfino Extra",1,3651,1,1,1,1
+img_621.jpg,Zeyada,1,4295,1,1,1,1
+img_622.jpg,Ziggurat,2,4834,0,1,1,1
+img_623.jpg,"Zilla Slab",1,4321,1,1,1,1
+img_624.jpg,"Zing Rust",1,5542,1,1,1,1

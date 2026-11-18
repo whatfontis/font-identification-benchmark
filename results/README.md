@@ -9,6 +9,12 @@ One folder per run. Folder name is `YYYY-MM-DD_<8-char-run-id>`. Each folder hol
 | `run_metadata.json` | date, endpoint, mode, git refs |
 | `summary.json` | Top-1 / Top-5 / Top-10 / Top-20 counts, avg ms, errors, not-found |
 | `not_found.txt` | (newer runs) images whose font was not in the top 20: `file|expected|what the API returned first` |
+| `not_found_vs_<run-id>.txt` | (newer runs) of those misses, the ones that *were* found in that earlier run |
+
+For runs that sent the API's `mode` parameter (`fast` / `pro`, API 2.2+), `run_metadata.json` also
+carries `mode_param` (what was asked for), and `mode_served` / `api_served` read back from the
+`X-WFI-Mode` / `X-WFI-API` response headers — so the mode that actually ran is recorded, not assumed.
+The separate `mode: "fully_automated"` field is about human involvement and is unrelated to it.
 
 Runs of general-purpose models (`YYYY-MM-DD_<model>_<run-id>`, from `scripts/run_llm_benchmark.php`) use the
 same files. `results.csv` has an extra `answer_1` column (the model's first answer), and each `responses.jsonl`

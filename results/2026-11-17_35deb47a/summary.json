@@ -1,0 +1,30 @@
+{
+    "run_id": "35deb47a",
+    "tested": 624,
+    "errors": 0,
+    "scored_on": 624,
+    "not_found": 3,
+    "avg_ms": 4598,
+    "top": {
+        "top1": {
+            "hits": 573,
+            "of": 624,
+            "pct": 91.83
+        },
+        "top5": {
+            "hits": 616,
+            "of": 624,
+            "pct": 98.72
+        },
+        "top10": {
+            "hits": 620,
+            "of": 624,
+            "pct": 99.36
+        },
+        "top20": {
+            "hits": 621,
+            "of": 624,
+            "pct": 99.52
+        }
+    }
+}

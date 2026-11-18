@@ -28,9 +28,11 @@ if (!$API_KEY && file_exists(__DIR__ . '/api_key.php')) {
 if (!$API_KEY) $API_KEY = 'XXXXXXXX';   // ← last-resort fallback (edit here if not using env/file)
 
 // Endpoint & optional AIMODEL parameter — overridable via env:
-//   WFI_ENDPOINT=<url>  WFI_AIMODEL=<model>  php scripts/run_benchmark.php imagenospace
+//   WFI_ENDPOINT=<url>  WFI_AIMODEL=<model>  WFI_MODE=fast|pro  php scripts/run_benchmark.php imagenospace
 $ENDPOINT = getenv('WFI_ENDPOINT') ?: 'https://www.whatfontis.com/api2/';
 $AIMODEL  = getenv('WFI_AIMODEL')  ?: null;
+// API 2.2 `mode`: fast (one pass, the server's default) or pro (several passes, fused).
+$API_MODE = getenv('WFI_MODE')     ?: null;
 // The API's internal "model" diagnostics block is dropped from responses.jsonl unless WFI_RECORD_MODEL=1.
 $RECORD_MODEL = (getenv('WFI_RECORD_MODEL') === '1');
 $LIMIT    = 20;
@@ -96,7 +98,7 @@ $repoGitRef = gitRef($repoRoot);
 // ── API call ────────────────────────────────────────────────────────────────
 // Returns parsed candidates AND the raw response body so the caller can persist
 // it verbatim as proof of what the server actually returned.
-function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null) {
+function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null, $API_MODE = null) {
     // Minimal params — server defaults for the rest (proven to be the right choice:
     // adding NOTTEXTBOXSDETECTION=1 broke identification on img_589 Univers).
     $post = [
@@ -106,6 +108,8 @@ function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null)
         'limit'          => (string)$LIMIT,
     ];
     if ($AIMODEL) $post['AIMODEL'] = $AIMODEL;
+    if ($API_MODE) $post['mode'] = $API_MODE;
+    $headers = [];
     $ch = curl_init();
     curl_setopt_array($ch, [
         CURLOPT_URL            => $ENDPOINT,
@@ -113,6 +117,12 @@ function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null)
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_TIMEOUT        => $TIMEOUT,
         CURLOPT_POSTFIELDS     => http_build_query($post),
+        // X-WFI-Mode / X-WFI-API say which mode and API version actually ran.
+        CURLOPT_HEADERFUNCTION => function ($ch, $line) use (&$headers) {
+            $p = explode(':', $line, 2);
+            if (count($p) === 2) $headers[strtolower(trim($p[0]))] = trim($p[1]);
+            return strlen($line);
+        },
     ]);
     $t0 = microtime(true);
     $body = curl_exec($ch);
@@ -121,13 +131,17 @@ function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null)
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
     $rawBody = (string)$body;
-    if ($err !== '') return ['error' => $err, 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody];
+    $served = [
+        'mode' => isset($headers['x-wfi-mode']) ? $headers['x-wfi-mode'] : null,
+        'api'  => isset($headers['x-wfi-api'])  ? $headers['x-wfi-api']  : null,
+    ];
+    if ($err !== '') return ['error' => $err, 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody, 'served' => $served];
     $j = json_decode($rawBody, true);
-    if (!is_array($j)) return ['error' => 'bad JSON: '.substr($rawBody, 0, 120), 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody];
+    if (!is_array($j)) return ['error' => 'bad JSON: '.substr($rawBody, 0, 120), 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody, 'served' => $served];
     $list  = isset($j['results']) && is_array($j['results']) ? $j['results'] : $j;
     $model = isset($j['model']) && is_array($j['model']) ? $j['model'] : null;
     if (!is_array($list) || isset($list['error'])) {
-        return ['error' => 'unexpected shape', 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody];
+        return ['error' => 'unexpected shape', 'ms' => $ms, 'http' => $httpCode, 'raw' => $rawBody, 'served' => $served];
     }
     $out = [];
     foreach ($list as $row) {
@@ -135,7 +149,7 @@ function identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL = null)
             $out[] = ['title' => (string)$row['title'], 'url' => (string)($row['url'] ?? '')];
         }
     }
-    return ['results' => $out, 'ms' => $ms, 'http' => $httpCode, 'model' => $model, 'raw' => $rawBody];
+    return ['results' => $out, 'ms' => $ms, 'http' => $httpCode, 'model' => $model, 'raw' => $rawBody, 'served' => $served];
 }
 
 // Write one line per API call to responses.jsonl (proof-of-run).
@@ -183,6 +197,9 @@ $partialMeta = [
     'endpoint'        => $ENDPOINT,
     'api_version'     => trim((string)parse_url($ENDPOINT, PHP_URL_PATH), '/'),
     'aimodel'         => $AIMODEL,
+    'mode_param'      => $API_MODE,          // what we asked for; null = not sent, server default
+    'mode_served'     => null,           // X-WFI-Mode on the first response that carried it
+    'api_served'      => null,           // X-WFI-API
     'mode'            => $MODE,
     'folder'          => basename($folderReal),
     'test_set_source' => 'https://github.com/whatfontis/Font-Finder',
@@ -201,7 +218,11 @@ foreach ($files as $path) {
     $want = $truth[$base];
     $tested++;
 
-    $r = identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL);
+    $r = identify($path, $API_KEY, $LIMIT, $ENDPOINT, $TIMEOUT, $AIMODEL, $API_MODE);
+    if ($partialMeta['mode_served'] === null && !empty($r['served']['mode'])) {
+        $partialMeta['mode_served'] = $r['served']['mode'];
+        $partialMeta['api_served']  = $r['served']['api'];
+    }
     $totalMs += $r['ms'];
 
     if (isset($r['error'])) {
