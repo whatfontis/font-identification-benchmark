@@ -97,15 +97,20 @@ The same 624 images, sent on 2026-11-17 to three general-purpose multimodal mode
 | Input tokens, 624 images | – | – | 193,985 | 232,377 | 747,618 |
 | Output tokens, 624 images | – | – | 179,374 | 172,916 | 1,304,431 |
 | …of which reasoning | – | – | 148,062 | 76,970 | 1,245,014 |
+| Cost per image | $0.0010 | $0.0010 | $0.0140 | $0.0141 | $0.0233 |
+| Cost for all 624 images | **$0.62** | **$0.62** | $8.73 | $8.78 | $14.54 |
+| Cost per correct Top-1 answer | **$0.0011** | $0.0011 | $0.067 | $0.103 | $0.191 |
 | Run folder | [`06de8c63`](results/2026-11-17_06de8c63/) | [`1cf358d5`](results/2026-11-17_1cf358d5/) | [`51f3e95d`](results/2026-11-17_gpt-6.2-astra_51f3e95d/) | [`8b470235`](results/2026-11-17_claude-fable-5-2_8b470235/) | [`8a52c295`](results/2026-11-17_gemini-4-carbon_8a52c295/) |
 
 **The purpose-built API is 4.4× the best general-purpose model at Top-1 and 2.5× at Top-20.** The gap widened since the September comparison: WhatFontIs gained 7 pp while the general-purpose models stayed in the same band, even though all three are newer releases than the ones tested in September.
 
 - GPT-6.2 Astra is the strongest of the three at Top-1 (20.99%) but returns about 10 names rather than 20, so its Top-20 barely exceeds its Top-10. Claude Fable 5.2 answers with nearly the full 20 and overtakes it at Top-20 (39.74%) while ranking first less than half as often — a wider, less committed shortlist.
-- Gemini 4 Carbon is last at every depth. It also spent 1.25 M reasoning tokens — more than the other two combined by a factor of five — and 10 of its 624 replies hit the token ceiling before producing a parseable list (`MAX_TOKENS`); those count as misses.
+- Gemini 4 Carbon is last at every depth. It also spent 1.25 M reasoning tokens — 5.5× the other two models' reasoning put together — and 10 of its 624 replies hit the token ceiling before producing a parseable list (`MAX_TOKENS`); those count as misses.
 - No refusals from any of the three this time (Claude Fable 5.1 refused one image in September).
 - Both GPT and Claude produced reasoning/thinking tokens under provider defaults, without being asked to.
-- Token counts come from what each API reported, line by line, in `responses.jsonl`. Cost is deliberately not tabulated here: list prices move, and anyone can multiply these counts by the current rate for their account. Reasoning tokens bill as output on all three.
+- **Cost.** Token counts come from what each API reported, line by line, in `responses.jsonl`, so every figure above can be recomputed from the published runs. Reasoning tokens bill as output on all three. At list prices on 2026-11-17 — GPT-6.2 Astra $8 / $40 per 1M input / output tokens, Claude Fable 5.2 $8 / $40, Gemini 4 Carbon $2 / $10 — the three model runs cost **$32.05 together**. The WhatFontIs figures use **$1 per 1,000 identifications**, the commercial API rate; the public endpoint is free for personal use within its 200-requests-a-day default limit, and `pro` is priced the same as `fast`.
+- **Gemini's bill is mostly reasoning**: its 1.25 M thinking tokens bill as output at $10 per 1M, which is $12.45 of its $14.54 — and it still placed last at every depth. Its price doubles on 2026-12-01 ($4 / $20), which would take the same run to $29.08.
+- **Per correct answer** the gap is wider than per image: one Top-1 hit costs $0.0011 through the API against $0.067 from GPT-6.2 Astra (61×), $0.103 from Claude Fable 5.2 (95×) and $0.191 from Gemini 4 Carbon (176×). The purpose-built API is both more accurate and cheaper per unit of accuracy, not one at the expense of the other.
 - Each folder has the raw reply of every call in `responses.jsonl` and the misses in `not_found.txt`. `php scripts/rescore.php <folder>` re-parses the raw replies and checks the score, as for the WhatFontIs runs.
 
 For reference, the earlier generation of the same three models, run 2026-09-18 on this same set: GPT-6 Astra 14.42% Top-1 / 27.56% Top-20 ([`aa9ad5cc`](results/2026-09-18_gpt-6-astra_aa9ad5cc/)), Claude Fable 5.1 8.65% / 33.49% ([`8ea83dfe`](results/2026-09-18_claude-fable-5-1_8ea83dfe/)), Gemini 3.8 Flash 4.33% / 18.43% ([`c3c0a5e4`](results/2026-09-18_gemini-3.8-flash_c3c0a5e4/)).
@@ -217,6 +222,8 @@ unzip -q awithspace.zip           # → image/*.jpg           (letters spaced ap
 
 # 3. set your API key (or put it in scripts/api_key.php, see api_key.php.example)
 #    get one: https://www.whatfontis.com/API-identify-fonts-from-image.html
+#    free for personal use (200 requests/day by default); commercial use is
+#    $1 per 1,000 identifications, same price in fast and pro mode
 export WFI_API_KEY=...
 
 # 4. run — writes to results/<date>_<run-id>/
